@@ -1,0 +1,1360 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="500.39" tests="21" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="23"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Dell\Desktop\douglas_test\target\test-classes;C:\Users\Dell\Desktop\douglas_test\target\classes;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-java\4.15.0\selenium-java-4.15.0.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-api\4.15.0\selenium-api-4.15.0.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.15.0\selenium-chrome-driver-4.15.0.jar;C:\Users\Dell\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.15.0\selenium-chromium-driver-4.15.0.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-json\4.15.0\selenium-json-4.15.0.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.15.0\selenium-manager-4.15.0.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v117\4.15.0\selenium-devtools-v117-4.15.0.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v118\4.15.0\selenium-devtools-v118-4.15.0.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v119\4.15.0\selenium-devtools-v119-4.15.0.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.15.0\selenium-devtools-v85-4.15.0.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.15.0\selenium-edge-driver-4.15.0.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.15.0\selenium-firefox-driver-4.15.0.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-http\4.15.0\selenium-http-4.15.0.jar;C:\Users\Dell\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.15.0\selenium-ie-driver-4.15.0.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.15.0\selenium-remote-driver-4.15.0.jar;C:\Users\Dell\.m2\repository\com\google\guava\guava\32.1.2-jre\guava-32.1.2-jre.jar;C:\Users\Dell\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\Dell\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Dell\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Dell\.m2\repository\org\checkerframework\checker-qual\3.33.0\checker-qual-3.33.0.jar;C:\Users\Dell\.m2\repository\com\google\errorprone\error_prone_annotations\2.18.0\error_prone_annotations-2.18.0.jar;C:\Users\Dell\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\Dell\.m2\repository\io\opentelemetry\opentelemetry-api\1.28.0\opentelemetry-api-1.28.0.jar;C:\Users\Dell\.m2\repository\io\opentelemetry\opentelemetry-context\1.28.0\opentelemetry-context-1.28.0.jar;C:\Users\Dell\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.28.0\opentelemetry-exporter-logging-1.28.0.jar;C:\Users\Dell\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.28.0\opentelemetry-sdk-metrics-1.28.0.jar;C:\Users\Dell\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.28.0-alpha\opentelemetry-extension-incubator-1.28.0-alpha.jar;C:\Users\Dell\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.28.0\opentelemetry-sdk-logs-1.28.0.jar;C:\Users\Dell\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.28.0\opentelemetry-sdk-common-1.28.0.jar;C:\Users\Dell\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.28.0\opentelemetry-sdk-extension-autoconfigure-spi-1.28.0.jar;C:\Users\Dell\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.28.0\opentelemetry-sdk-extension-autoconfigure-1.28.0.jar;C:\Users\Dell\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.28.0-alpha\opentelemetry-api-events-1.28.0-alpha.jar;C:\Users\Dell\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.28.0\opentelemetry-sdk-trace-1.28.0.jar;C:\Users\Dell\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.28.0\opentelemetry-sdk-1.28.0.jar;C:\Users\Dell\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.28.0-alpha\opentelemetry-semconv-1.28.0-alpha.jar;C:\Users\Dell\.m2\repository\net\bytebuddy\byte-buddy\1.14.5\byte-buddy-1.14.5.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-os\4.15.0\selenium-os-4.15.0.jar;C:\Users\Dell\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.15.0\selenium-safari-driver-4.15.0.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-support\4.15.0\selenium-support-4.15.0.jar;C:\Users\Dell\.m2\repository\org\testng\testng\7.10.1\testng-7.10.1.jar;C:\Users\Dell\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Dell\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Dell\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\Dell\.m2\repository\io\qameta\allure\allure-testng\2.24.0\allure-testng-2.24.0.jar;C:\Users\Dell\.m2\repository\io\qameta\allure\allure-java-commons\2.24.0\allure-java-commons-2.24.0.jar;C:\Users\Dell\.m2\repository\io\qameta\allure\allure-model\2.24.0\allure-model-2.24.0.jar;C:\Users\Dell\.m2\repository\io\qameta\allure\allure-test-filter\2.24.0\allure-test-filter-2.24.0.jar;C:\Users\Dell\.m2\repository\org\apache\logging\log4j\log4j-core\2.20.0\log4j-core-2.20.0.jar;C:\Users\Dell\.m2\repository\org\apache\logging\log4j\log4j-api\2.20.0\log4j-api-2.20.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="23"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-23.0.2\bin"/>
+    <property name="sun.java.command" value="C:\Users\Dell\AppData\Local\Temp\surefire13544931170867946905\surefirebooter-20250609132440962_3.jar C:\Users\Dell\AppData\Local\Temp\surefire13544931170867946905 2025-06-09T13-24-39_849-jvmRun1 surefire-20250609132440962_1tmp surefire_0-20250609132440962_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\Dell\Desktop\douglas_test\target\test-classes;C:\Users\Dell\Desktop\douglas_test\target\classes;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-java\4.15.0\selenium-java-4.15.0.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-api\4.15.0\selenium-api-4.15.0.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.15.0\selenium-chrome-driver-4.15.0.jar;C:\Users\Dell\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.15.0\selenium-chromium-driver-4.15.0.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-json\4.15.0\selenium-json-4.15.0.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.15.0\selenium-manager-4.15.0.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v117\4.15.0\selenium-devtools-v117-4.15.0.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v118\4.15.0\selenium-devtools-v118-4.15.0.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v119\4.15.0\selenium-devtools-v119-4.15.0.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.15.0\selenium-devtools-v85-4.15.0.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.15.0\selenium-edge-driver-4.15.0.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.15.0\selenium-firefox-driver-4.15.0.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-http\4.15.0\selenium-http-4.15.0.jar;C:\Users\Dell\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.15.0\selenium-ie-driver-4.15.0.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.15.0\selenium-remote-driver-4.15.0.jar;C:\Users\Dell\.m2\repository\com\google\guava\guava\32.1.2-jre\guava-32.1.2-jre.jar;C:\Users\Dell\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\Dell\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Dell\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Dell\.m2\repository\org\checkerframework\checker-qual\3.33.0\checker-qual-3.33.0.jar;C:\Users\Dell\.m2\repository\com\google\errorprone\error_prone_annotations\2.18.0\error_prone_annotations-2.18.0.jar;C:\Users\Dell\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\Dell\.m2\repository\io\opentelemetry\opentelemetry-api\1.28.0\opentelemetry-api-1.28.0.jar;C:\Users\Dell\.m2\repository\io\opentelemetry\opentelemetry-context\1.28.0\opentelemetry-context-1.28.0.jar;C:\Users\Dell\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.28.0\opentelemetry-exporter-logging-1.28.0.jar;C:\Users\Dell\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.28.0\opentelemetry-sdk-metrics-1.28.0.jar;C:\Users\Dell\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.28.0-alpha\opentelemetry-extension-incubator-1.28.0-alpha.jar;C:\Users\Dell\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.28.0\opentelemetry-sdk-logs-1.28.0.jar;C:\Users\Dell\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.28.0\opentelemetry-sdk-common-1.28.0.jar;C:\Users\Dell\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.28.0\opentelemetry-sdk-extension-autoconfigure-spi-1.28.0.jar;C:\Users\Dell\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.28.0\opentelemetry-sdk-extension-autoconfigure-1.28.0.jar;C:\Users\Dell\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.28.0-alpha\opentelemetry-api-events-1.28.0-alpha.jar;C:\Users\Dell\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.28.0\opentelemetry-sdk-trace-1.28.0.jar;C:\Users\Dell\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.28.0\opentelemetry-sdk-1.28.0.jar;C:\Users\Dell\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.28.0-alpha\opentelemetry-semconv-1.28.0-alpha.jar;C:\Users\Dell\.m2\repository\net\bytebuddy\byte-buddy\1.14.5\byte-buddy-1.14.5.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-os\4.15.0\selenium-os-4.15.0.jar;C:\Users\Dell\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.15.0\selenium-safari-driver-4.15.0.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-support\4.15.0\selenium-support-4.15.0.jar;C:\Users\Dell\.m2\repository\org\testng\testng\7.10.1\testng-7.10.1.jar;C:\Users\Dell\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Dell\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Dell\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\Dell\.m2\repository\io\qameta\allure\allure-testng\2.24.0\allure-testng-2.24.0.jar;C:\Users\Dell\.m2\repository\io\qameta\allure\allure-java-commons\2.24.0\allure-java-commons-2.24.0.jar;C:\Users\Dell\.m2\repository\io\qameta\allure\allure-model\2.24.0\allure-model-2.24.0.jar;C:\Users\Dell\.m2\repository\io\qameta\allure\allure-test-filter\2.24.0\allure-test-filter-2.24.0.jar;C:\Users\Dell\.m2\repository\org\apache\logging\log4j\log4j-core\2.20.0\log4j-core-2.20.0.jar;C:\Users\Dell\.m2\repository\org\apache\logging\log4j\log4j-api\2.20.0\log4j-api-2.20.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Dell"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-01-21"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-23.0.2"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Dell\Desktop\douglas_test"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Dell\AppData\Local\Temp\surefire13544931170867946905\surefirebooter-20250609132440962_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="23.0.2+7-58"/>
+    <property name="user.name" value="Dell"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Dell\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Dell\AppData\Local\Temp\"/>
+    <property name="java.version" value="23.0.2"/>
+    <property name="user.dir" value="C:\Users\Dell\Desktop\douglas_test"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-23.0.2\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\Dell\AppData\Local\Programs\Python\Python313\Scripts\;C:\Users\Dell\AppData\Local\Programs\Python\Python313\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Java\jdk-23.0.2;C:\Program Files\Maven\apache-maven-3.9.9\bin;C:\Users\Dell\AppData\Local\Microsoft\WindowsApps;D:\chromedriver-win64\chromedriver-win64;C:\Users\Dell\.dotnet\tools;C:\Users\Dell\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Dell\AppData\Roaming\npm;C:\Program Files\Java\jdk-23.0.2;;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.3.4.1\bin;;c:\Users\Dell\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="23.0.2+7-58"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="67.0"/>
+  </properties>
+  <testcase name="acceptCookie" classname="tests.DouglasTest" time="26.399">
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Jun 09, 2025 1:24:49 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+Jun 09, 2025 1:24:49 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 137.0.7151.69. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.15.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Jun 09, 2025 1:24:52 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+Jun 09, 2025 1:24:52 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 137.0.3296.68. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.15.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="acceptCookie" classname="tests.DouglasTest" time="28.552"/>
+  <testcase name="acceptCookie" classname="tests.DouglasTest" time="2.311"/>
+  <testcase name="verifyPerfumeNavigation" classname="tests.DouglasTest" time="21.917"/>
+  <testcase name="verifyPerfumeNavigation" classname="tests.DouglasTest" time="52.701"/>
+  <testcase name="verifyPerfumeNavigation" classname="tests.DouglasTest" time="6.124"/>
+  <testcase name="verifyPerfumeProductListWithFilters[Highlight, Sale](1)" classname="tests.DouglasTest" time="5.021">
+    <system-out><![CDATA[Schnelle Lieferung
+1–3 Werktage Lieferzeit
+Schnelle Lieferung
+Versandkostenfrei
+ab 34,95 €
+]]></system-out>
+  </testcase>
+  <testcase name="verifyPerfumeProductListWithFilters[Highlight, Sale](1)" classname="tests.DouglasTest" time="25.348">
+    <system-out><![CDATA[Homepage
+Parfum
+PARFÜM & DÜFTE0
+PARFÜM & DÜFTE
+(0)
+Filter
+Hinweise zur Sortierung
+BEAUTY STORYS
+KISSED BY THE SUN
+Sommer-Look
+Sonne, Strand, Meer: Dieses Make-up hält durch!
+KISSED BY THE SUN
+Scents of Summer
+Diese Noten versprühen Leichtigkeit und Lebensfreude.
+GET INSPIRED
+Refill What You Love
+Diese Beauty-Highlights kannst du ganz einfach nachfüllen.
+WEDDING TRENDS 2025
+Bereit für deine Hochzeit?
+So wird dein großer Tag unvergesslich schön.
+PARFÜM: ENTDECKE UNSERE GROSSE VIELFALT FÜR FRAUEN & MÄNNER
+Finde bei Douglas Parfums, die deine Sinne verzaubern und dich mit einem Spritzer in gute Stimmung versetzen. Unsere Düfte – anziehend, frisch oder einzigartig – warten darauf, von dir entdeckt zu werden. Stöber online und lass dich von der Vielfalt der Düfte begeistern!
+PARFÜM ONLINE KAUFEN – MITHILFE DER DUFTPYRAMIDE
+Ein hochwertiges Parfüm wird mit der gleichen Präzision wie ein melodisches Musikwerk kreiert. Es besteht üblicherweise aus 150 bis 250 verschiedenen Komponenten, die gemeinsam die Duftnoten – Kopf, Herz und Basis – formen, welche die sogenannte Duftpyramide aufbauen.
+Kopfnote: Sie wird zuerst wahrgenommen. Sie ist intensiv, verfliegt aber gleichzeitig am schnellsten. Für die Kopfnote werden häufig frische oder sanfte Nuancen wie Bergamotte, Zimt, Zitrusfrüchte oder Minze verwendet.
+Herznote: Sie entfaltet sich etwa zehn Minuten nach dem Auftragen. Sie macht meist den Großteil der Duftkomposition aus und hat eine mittlere Haltbarkeit. Beliebt sind blumige Bouquets mit Iris, Rose oder Jasmin. Auch milde Gewürze, Beeren, Vetiver oder Anis gehören zu populären Duftnuancen der Herznote.
+Basisnote: Sie hält sich am längsten und ist das Fundament der Duftkomposition. Beliebte Aromen sind hier Moschus, Sandelholz, Weihrauch, Patschuli oder Vanille. Als Stabilisator des Dufts geht die Basisnote eine besondere Verbindung mit deiner Haut ein.
+Übrigens: Wie ein Parfüm riecht, wird nicht ausschließlich durch seine Zusammensetzung bestimmt. So entfaltet sich das gleiche Parfüm auf jeder Haut anders und riecht an jedem Menschen unterschiedlich.
+WAS UNTERSCHEIDET EAU DE TOILETTE, EAU DE PARFUM UND CO.?
+Der Unterschied liegt in der Duftöl-Konzentration. Diese bestimmt die Intensität und die Haltbarkeit des Duftes. Hier ist der Überblick über den Duftölgehalt in verschiedenen Parfümtypen:
+Extrait de Parfum: 15-40 %
+Eau de Parfum (EdP): 8-15 %
+Eau de Toilette (EdT): 6-8 %
+Eau de Cologne: 3-6 %
+Eau de Fraîche: < 3%
+WIE HÄLT PARFÜM AM LÄNGSTEN?
+Wie intensiv und langanhaltend der Duft ist, kannst du neben der Wahl der Duftkonzentration dadurch beeinflussen, wo du das Parfüm aufsprühst: Am schnellsten und intensivsten entfalten sich Düfte generell an Stellen, an denen die Haut gut durchblutet und warm ist wie an Hals, Nacken und Dekolleté oder an Armbeuge und Handgelenk. An kühleren Körperregionen wie den Ohrläppchen sind Düfte dagegen besonders langanhaltend. Auch die Haare nehmen den Duft gut und lange an. Kleidung aus natürlichen Materialien wie Wolle oder Baumwolle kannst du ebenfalls parfümieren.
+Tipp: Parfüm nicht verreiben – die Reibung erzeugt Hitze und verändert dabei den Duft. Lass das Parfüm an der Luft trocknen oder klopfe es nur leicht ein.
+PARFUM ONLINE KAUFEN – DEINEN LIEBLINGSDUFT BEI DOUGLAS SHOPPEN
+Ob Damenparfum, Herrendüfte oder Unisex-Parfum: Entdecke deinen neuen Lieblingsduft bei Douglas. Die praktischen Filter erleichtern dir die Suche nach bestimmten Duftnoten, sodass du schnell dein neues Parfum passend zu deinen Wünschen findest. Parfum-Neuheiten, die Top 10 der besten Damendüfte oder exquisite Nischendüfte laden zum Stöbern ein – dein neuer Liebling ist bestimmt auch dabei.
+Beliebte Kategorien
+Die Duftpyramide | Duftkonzentrationen | Parfum richtig auftragen | Eau de Parfum | Eau de Toilette | Parfum aufbewahren | Eau de Cologne | Eau Fraiche | Parfum wie frische Wäsche | Parfum wie frisch geduscht
+Homepage
+Parfum
+PARFÜM & DÜFTE0
+PARFÜM & DÜFTE
+(0)
+Filter
+Hinweise zur Sortierung
+BEAUTY STORYS
+KISSED BY THE SUN
+Sommer-Look
+Sonne, Strand, Meer: Dieses Make-up hält durch!
+KISSED BY THE SUN
+Scents of Summer
+Diese Noten versprühen Leichtigkeit und Lebensfreude.
+GET INSPIRED
+Refill What You Love
+Diese Beauty-Highlights kannst du ganz einfach nachfüllen.
+WEDDING TRENDS 2025
+Bereit für deine Hochzeit?
+So wird dein großer Tag unvergesslich schön.
+PARFÜM: ENTDECKE UNSERE GROSSE VIELFALT FÜR FRAUEN & MÄNNER
+Finde bei Douglas Parfums, die deine Sinne verzaubern und dich mit einem Spritzer in gute Stimmung versetzen. Unsere Düfte – anziehend, frisch oder einzigartig – warten darauf, von dir entdeckt zu werden. Stöber online und lass dich von der Vielfalt der Düfte begeistern!
+PARFÜM ONLINE KAUFEN – MITHILFE DER DUFTPYRAMIDE
+Ein hochwertiges Parfüm wird mit der gleichen Präzision wie ein melodisches Musikwerk kreiert. Es besteht üblicherweise aus 150 bis 250 verschiedenen Komponenten, die gemeinsam die Duftnoten – Kopf, Herz und Basis – formen, welche die sogenannte Duftpyramide aufbauen.
+Kopfnote: Sie wird zuerst wahrgenommen. Sie ist intensiv, verfliegt aber gleichzeitig am schnellsten. Für die Kopfnote werden häufig frische oder sanfte Nuancen wie Bergamotte, Zimt, Zitrusfrüchte oder Minze verwendet.
+Herznote: Sie entfaltet sich etwa zehn Minuten nach dem Auftragen. Sie macht meist den Großteil der Duftkomposition aus und hat eine mittlere Haltbarkeit. Beliebt sind blumige Bouquets mit Iris, Rose oder Jasmin. Auch milde Gewürze, Beeren, Vetiver oder Anis gehören zu populären Duftnuancen der Herznote.
+Basisnote: Sie hält sich am längsten und ist das Fundament der Duftkomposition. Beliebte Aromen sind hier Moschus, Sandelholz, Weihrauch, Patschuli oder Vanille. Als Stabilisator des Dufts geht die Basisnote eine besondere Verbindung mit deiner Haut ein.
+Übrigens: Wie ein Parfüm riecht, wird nicht ausschließlich durch seine Zusammensetzung bestimmt. So entfaltet sich das gleiche Parfüm auf jeder Haut anders und riecht an jedem Menschen unterschiedlich.
+WAS UNTERSCHEIDET EAU DE TOILETTE, EAU DE PARFUM UND CO.?
+Der Unterschied liegt in der Duftöl-Konzentration. Diese bestimmt die Intensität und die Haltbarkeit des Duftes. Hier ist der Überblick über den Duftölgehalt in verschiedenen Parfümtypen:
+Extrait de Parfum: 15-40 %
+Eau de Parfum (EdP): 8-15 %
+Eau de Toilette (EdT): 6-8 %
+Eau de Cologne: 3-6 %
+Eau de Fraîche: < 3%
+WIE HÄLT PARFÜM AM LÄNGSTEN?
+Wie intensiv und langanhaltend der Duft ist, kannst du neben der Wahl der Duftkonzentration dadurch beeinflussen, wo du das Parfüm aufsprühst: Am schnellsten und intensivsten entfalten sich Düfte generell an Stellen, an denen die Haut gut durchblutet und warm ist wie an Hals, Nacken und Dekolleté oder an Armbeuge und Handgelenk. An kühleren Körperregionen wie den Ohrläppchen sind Düfte dagegen besonders langanhaltend. Auch die Haare nehmen den Duft gut und lange an. Kleidung aus natürlichen Materialien wie Wolle oder Baumwolle kannst du ebenfalls parfümieren.
+Tipp: Parfüm nicht verreiben – die Reibung erzeugt Hitze und verändert dabei den Duft. Lass das Parfüm an der Luft trocknen oder klopfe es nur leicht ein.
+PARFUM ONLINE KAUFEN – DEINEN LIEBLINGSDUFT BEI DOUGLAS SHOPPEN
+Ob Damenparfum, Herrendüfte oder Unisex-Parfum: Entdecke deinen neuen Lieblingsduft bei Douglas. Die praktischen Filter erleichtern dir die Suche nach bestimmten Duftnoten, sodass du schnell dein neues Parfum passend zu deinen Wünschen findest. Parfum-Neuheiten, die Top 10 der besten Damendüfte oder exquisite Nischendüfte laden zum Stöbern ein – dein neuer Liebling ist bestimmt auch dabei.
+Beliebte Kategorien
+Die Duftpyramide | Duftkonzentrationen | Parfum richtig auftragen | Eau de Parfum | Eau de Toilette | Parfum aufbewahren | Eau de Cologne | Eau Fraiche | Parfum wie frische Wäsche | Parfum wie frisch geduscht
+Homepage
+Parfum
+PARFÜM & DÜFTE0
+PARFÜM & DÜFTE
+(0)
+Filter
+Hinweise zur Sortierung
+BEAUTY STORYS
+KISSED BY THE SUN
+Sommer-Look
+Sonne, Strand, Meer: Dieses Make-up hält durch!
+KISSED BY THE SUN
+Scents of Summer
+Diese Noten versprühen Leichtigkeit und Lebensfreude.
+GET INSPIRED
+Refill What You Love
+Diese Beauty-Highlights kannst du ganz einfach nachfüllen.
+WEDDING TRENDS 2025
+Bereit für deine Hochzeit?
+So wird dein großer Tag unvergesslich schön.
+]]></system-out>
+  </testcase>
+  <testcase name="verifyPerfumeProductListWithFilters[Highlight, Sale](1)" classname="tests.DouglasTest" time="6.605">
+    <system-out><![CDATA[
+
+Schnelle Lieferung
+1–3 Werktage Lieferzeit
+]]></system-out>
+  </testcase>
+  <testcase name="verifyPerfumeProductListWithFilters[Marke, Chanel](2)" classname="tests.DouglasTest" time="11.455">
+    <system-out><![CDATA[Schnelle Lieferung
+1–3 Werktage Lieferzeit
+Schnelle Lieferung
+Versandkostenfrei
+ab 34,95 €
+]]></system-out>
+  </testcase>
+  <testcase name="verifyPerfumeProductListWithFilters[Marke, Chanel](2)" classname="tests.DouglasTest" time="21.346">
+    <system-out><![CDATA[Homepage
+Parfum
+PARFÜM & DÜFTE0
+PARFÜM & DÜFTE
+(0)
+Filter
+Hinweise zur Sortierung
+BEAUTY STORYS
+KISSED BY THE SUN
+Sommer-Look
+Sonne, Strand, Meer: Dieses Make-up hält durch!
+KISSED BY THE SUN
+Scents of Summer
+Diese Noten versprühen Leichtigkeit und Lebensfreude.
+GET INSPIRED
+Refill What You Love
+Diese Beauty-Highlights kannst du ganz einfach nachfüllen.
+WEDDING TRENDS 2025
+Bereit für deine Hochzeit?
+So wird dein großer Tag unvergesslich schön.
+PARFÜM: ENTDECKE UNSERE GROSSE VIELFALT FÜR FRAUEN & MÄNNER
+Finde bei Douglas Parfums, die deine Sinne verzaubern und dich mit einem Spritzer in gute Stimmung versetzen. Unsere Düfte – anziehend, frisch oder einzigartig – warten darauf, von dir entdeckt zu werden. Stöber online und lass dich von der Vielfalt der Düfte begeistern!
+PARFÜM ONLINE KAUFEN – MITHILFE DER DUFTPYRAMIDE
+Ein hochwertiges Parfüm wird mit der gleichen Präzision wie ein melodisches Musikwerk kreiert. Es besteht üblicherweise aus 150 bis 250 verschiedenen Komponenten, die gemeinsam die Duftnoten – Kopf, Herz und Basis – formen, welche die sogenannte Duftpyramide aufbauen.
+Kopfnote: Sie wird zuerst wahrgenommen. Sie ist intensiv, verfliegt aber gleichzeitig am schnellsten. Für die Kopfnote werden häufig frische oder sanfte Nuancen wie Bergamotte, Zimt, Zitrusfrüchte oder Minze verwendet.
+Herznote: Sie entfaltet sich etwa zehn Minuten nach dem Auftragen. Sie macht meist den Großteil der Duftkomposition aus und hat eine mittlere Haltbarkeit. Beliebt sind blumige Bouquets mit Iris, Rose oder Jasmin. Auch milde Gewürze, Beeren, Vetiver oder Anis gehören zu populären Duftnuancen der Herznote.
+Basisnote: Sie hält sich am längsten und ist das Fundament der Duftkomposition. Beliebte Aromen sind hier Moschus, Sandelholz, Weihrauch, Patschuli oder Vanille. Als Stabilisator des Dufts geht die Basisnote eine besondere Verbindung mit deiner Haut ein.
+Übrigens: Wie ein Parfüm riecht, wird nicht ausschließlich durch seine Zusammensetzung bestimmt. So entfaltet sich das gleiche Parfüm auf jeder Haut anders und riecht an jedem Menschen unterschiedlich.
+WAS UNTERSCHEIDET EAU DE TOILETTE, EAU DE PARFUM UND CO.?
+Der Unterschied liegt in der Duftöl-Konzentration. Diese bestimmt die Intensität und die Haltbarkeit des Duftes. Hier ist der Überblick über den Duftölgehalt in verschiedenen Parfümtypen:
+Extrait de Parfum: 15-40 %
+Eau de Parfum (EdP): 8-15 %
+Eau de Toilette (EdT): 6-8 %
+Eau de Cologne: 3-6 %
+Eau de Fraîche: < 3%
+WIE HÄLT PARFÜM AM LÄNGSTEN?
+Wie intensiv und langanhaltend der Duft ist, kannst du neben der Wahl der Duftkonzentration dadurch beeinflussen, wo du das Parfüm aufsprühst: Am schnellsten und intensivsten entfalten sich Düfte generell an Stellen, an denen die Haut gut durchblutet und warm ist wie an Hals, Nacken und Dekolleté oder an Armbeuge und Handgelenk. An kühleren Körperregionen wie den Ohrläppchen sind Düfte dagegen besonders langanhaltend. Auch die Haare nehmen den Duft gut und lange an. Kleidung aus natürlichen Materialien wie Wolle oder Baumwolle kannst du ebenfalls parfümieren.
+Tipp: Parfüm nicht verreiben – die Reibung erzeugt Hitze und verändert dabei den Duft. Lass das Parfüm an der Luft trocknen oder klopfe es nur leicht ein.
+PARFUM ONLINE KAUFEN – DEINEN LIEBLINGSDUFT BEI DOUGLAS SHOPPEN
+Ob Damenparfum, Herrendüfte oder Unisex-Parfum: Entdecke deinen neuen Lieblingsduft bei Douglas. Die praktischen Filter erleichtern dir die Suche nach bestimmten Duftnoten, sodass du schnell dein neues Parfum passend zu deinen Wünschen findest. Parfum-Neuheiten, die Top 10 der besten Damendüfte oder exquisite Nischendüfte laden zum Stöbern ein – dein neuer Liebling ist bestimmt auch dabei.
+Beliebte Kategorien
+Die Duftpyramide | Duftkonzentrationen | Parfum richtig auftragen | Eau de Parfum | Eau de Toilette | Parfum aufbewahren | Eau de Cologne | Eau Fraiche | Parfum wie frische Wäsche | Parfum wie frisch geduscht
+Homepage
+Parfum
+PARFÜM & DÜFTE0
+PARFÜM & DÜFTE
+(0)
+Filter
+Hinweise zur Sortierung
+BEAUTY STORYS
+KISSED BY THE SUN
+Sommer-Look
+Sonne, Strand, Meer: Dieses Make-up hält durch!
+KISSED BY THE SUN
+Scents of Summer
+Diese Noten versprühen Leichtigkeit und Lebensfreude.
+GET INSPIRED
+Refill What You Love
+Diese Beauty-Highlights kannst du ganz einfach nachfüllen.
+WEDDING TRENDS 2025
+Bereit für deine Hochzeit?
+So wird dein großer Tag unvergesslich schön.
+PARFÜM: ENTDECKE UNSERE GROSSE VIELFALT FÜR FRAUEN & MÄNNER
+Finde bei Douglas Parfums, die deine Sinne verzaubern und dich mit einem Spritzer in gute Stimmung versetzen. Unsere Düfte – anziehend, frisch oder einzigartig – warten darauf, von dir entdeckt zu werden. Stöber online und lass dich von der Vielfalt der Düfte begeistern!
+PARFÜM ONLINE KAUFEN – MITHILFE DER DUFTPYRAMIDE
+Ein hochwertiges Parfüm wird mit der gleichen Präzision wie ein melodisches Musikwerk kreiert. Es besteht üblicherweise aus 150 bis 250 verschiedenen Komponenten, die gemeinsam die Duftnoten – Kopf, Herz und Basis – formen, welche die sogenannte Duftpyramide aufbauen.
+Kopfnote: Sie wird zuerst wahrgenommen. Sie ist intensiv, verfliegt aber gleichzeitig am schnellsten. Für die Kopfnote werden häufig frische oder sanfte Nuancen wie Bergamotte, Zimt, Zitrusfrüchte oder Minze verwendet.
+Herznote: Sie entfaltet sich etwa zehn Minuten nach dem Auftragen. Sie macht meist den Großteil der Duftkomposition aus und hat eine mittlere Haltbarkeit. Beliebt sind blumige Bouquets mit Iris, Rose oder Jasmin. Auch milde Gewürze, Beeren, Vetiver oder Anis gehören zu populären Duftnuancen der Herznote.
+Basisnote: Sie hält sich am längsten und ist das Fundament der Duftkomposition. Beliebte Aromen sind hier Moschus, Sandelholz, Weihrauch, Patschuli oder Vanille. Als Stabilisator des Dufts geht die Basisnote eine besondere Verbindung mit deiner Haut ein.
+Übrigens: Wie ein Parfüm riecht, wird nicht ausschließlich durch seine Zusammensetzung bestimmt. So entfaltet sich das gleiche Parfüm auf jeder Haut anders und riecht an jedem Menschen unterschiedlich.
+WAS UNTERSCHEIDET EAU DE TOILETTE, EAU DE PARFUM UND CO.?
+Der Unterschied liegt in der Duftöl-Konzentration. Diese bestimmt die Intensität und die Haltbarkeit des Duftes. Hier ist der Überblick über den Duftölgehalt in verschiedenen Parfümtypen:
+Extrait de Parfum: 15-40 %
+Eau de Parfum (EdP): 8-15 %
+Eau de Toilette (EdT): 6-8 %
+Eau de Cologne: 3-6 %
+Eau de Fraîche: < 3%
+WIE HÄLT PARFÜM AM LÄNGSTEN?
+Wie intensiv und langanhaltend der Duft ist, kannst du neben der Wahl der Duftkonzentration dadurch beeinflussen, wo du das Parfüm aufsprühst: Am schnellsten und intensivsten entfalten sich Düfte generell an Stellen, an denen die Haut gut durchblutet und warm ist wie an Hals, Nacken und Dekolleté oder an Armbeuge und Handgelenk. An kühleren Körperregionen wie den Ohrläppchen sind Düfte dagegen besonders langanhaltend. Auch die Haare nehmen den Duft gut und lange an. Kleidung aus natürlichen Materialien wie Wolle oder Baumwolle kannst du ebenfalls parfümieren.
+Tipp: Parfüm nicht verreiben – die Reibung erzeugt Hitze und verändert dabei den Duft. Lass das Parfüm an der Luft trocknen oder klopfe es nur leicht ein.
+PARFUM ONLINE KAUFEN – DEINEN LIEBLINGSDUFT BEI DOUGLAS SHOPPEN
+Ob Damenparfum, Herrendüfte oder Unisex-Parfum: Entdecke deinen neuen Lieblingsduft bei Douglas. Die praktischen Filter erleichtern dir die Suche nach bestimmten Duftnoten, sodass du schnell dein neues Parfum passend zu deinen Wünschen findest. Parfum-Neuheiten, die Top 10 der besten Damendüfte oder exquisite Nischendüfte laden zum Stöbern ein – dein neuer Liebling ist bestimmt auch dabei.
+Beliebte Kategorien
+Die Duftpyramide | Duftkonzentrationen | Parfum richtig auftragen | Eau de Parfum | Eau de Toilette | Parfum aufbewahren | Eau de Cologne | Eau Fraiche | Parfum wie frische Wäsche | Parfum wie frisch geduscht
+Homepage
+Parfum
+PARFÜM & DÜFTE0
+PARFÜM & DÜFTE
+(0)
+Filter
+Hinweise zur Sortierung
+BEAUTY STORYS
+KISSED BY THE SUN
+Sommer-Look
+Sonne, Strand, Meer: Dieses Make-up hält durch!
+KISSED BY THE SUN
+Scents of Summer
+Diese Noten versprühen Leichtigkeit und Lebensfreude.
+GET INSPIRED
+Refill What You Love
+Diese Beauty-Highlights kannst du ganz einfach nachfüllen.
+WEDDING TRENDS 2025
+Bereit für deine Hochzeit?
+So wird dein großer Tag unvergesslich schön.
+]]></system-out>
+  </testcase>
+  <testcase name="verifyPerfumeProductListWithFilters[Marke, Chanel](2)" classname="tests.DouglasTest" time="33.842">
+    <system-out><![CDATA[Homepage
+Parfum
+PARFÜM & DÜFTE0
+PARFÜM & DÜFTE
+(0)
+Hinweise zur Sortierung
+BEAUTY STORYS
+KISSED BY THE SUN
+Sommer-Look
+Sonne, Strand, Meer: Dieses Make-up hält durch!
+KISSED BY THE SUN
+Scents of Summer
+Diese Noten versprühen Leichtigkeit und Lebensfreude.
+GET INSPIRED
+Refill What You Love
+Diese Beauty-Highlights kannst du ganz einfach nachfüllen.
+WEDDING TRENDS 2025
+Bereit für deine Hochzeit?
+So wird dein großer Tag unvergesslich schön.
+PARFÜM: ENTDECKE UNSERE GROSSE VIELFALT FÜR FRAUEN & MÄNNER
+Finde bei Douglas Parfums, die deine Sinne verzaubern und dich mit einem Spritzer in gute Stimmung versetzen. Unsere Düfte – anziehend, frisch oder einzigartig – warten darauf, von dir entdeckt zu werden. Stöber online und lass dich von der Vielfalt der Düfte begeistern!
+PARFÜM ONLINE KAUFEN – MITHILFE DER DUFTPYRAMIDE
+Ein hochwertiges Parfüm wird mit der gleichen Präzision wie ein melodisches Musikwerk kreiert. Es besteht üblicherweise aus 150 bis 250 verschiedenen Komponenten, die gemeinsam die Duftnoten – Kopf, Herz und Basis – formen, welche die sogenannte Duftpyramide aufbauen.
+Kopfnote: Sie wird zuerst wahrgenommen. Sie ist intensiv, verfliegt aber gleichzeitig am schnellsten. Für die Kopfnote werden häufig frische oder sanfte Nuancen wie Bergamotte, Zimt, Zitrusfrüchte oder Minze verwendet.
+Herznote: Sie entfaltet sich etwa zehn Minuten nach dem Auftragen. Sie macht meist den Großteil der Duftkomposition aus und hat eine mittlere Haltbarkeit. Beliebt sind blumige Bouquets mit Iris, Rose oder Jasmin. Auch milde Gewürze, Beeren, Vetiver oder Anis gehören zu populären Duftnuancen der Herznote.
+Basisnote: Sie hält sich am längsten und ist das Fundament der Duftkomposition. Beliebte Aromen sind hier Moschus, Sandelholz, Weihrauch, Patschuli oder Vanille. Als Stabilisator des Dufts geht die Basisnote eine besondere Verbindung mit deiner Haut ein.
+Übrigens: Wie ein Parfüm riecht, wird nicht ausschließlich durch seine Zusammensetzung bestimmt. So entfaltet sich das gleiche Parfüm auf jeder Haut anders und riecht an jedem Menschen unterschiedlich.
+WAS UNTERSCHEIDET EAU DE TOILETTE, EAU DE PARFUM UND CO.?
+Der Unterschied liegt in der Duftöl-Konzentration. Diese bestimmt die Intensität und die Haltbarkeit des Duftes. Hier ist der Überblick über den Duftölgehalt in verschiedenen Parfümtypen:
+Extrait de Parfum: 15-40 %
+Eau de Parfum (EdP): 8-15 %
+Eau de Toilette (EdT): 6-8 %
+Eau de Cologne: 3-6 %
+Eau de Fraîche: < 3%
+WIE HÄLT PARFÜM AM LÄNGSTEN?
+Wie intensiv und langanhaltend der Duft ist, kannst du neben der Wahl der Duftkonzentration dadurch beeinflussen, wo du das Parfüm aufsprühst: Am schnellsten und intensivsten entfalten sich Düfte generell an Stellen, an denen die Haut gut durchblutet und warm ist wie an Hals, Nacken und Dekolleté oder an Armbeuge und Handgelenk. An kühleren Körperregionen wie den Ohrläppchen sind Düfte dagegen besonders langanhaltend. Auch die Haare nehmen den Duft gut und lange an. Kleidung aus natürlichen Materialien wie Wolle oder Baumwolle kannst du ebenfalls parfümieren.
+Tipp: Parfüm nicht verreiben – die Reibung erzeugt Hitze und verändert dabei den Duft. Lass das Parfüm an der Luft trocknen oder klopfe es nur leicht ein.
+PARFUM ONLINE KAUFEN – DEINEN LIEBLINGSDUFT BEI DOUGLAS SHOPPEN
+Ob Damenparfum, Herrendüfte oder Unisex-Parfum: Entdecke deinen neuen Lieblingsduft bei Douglas. Die praktischen Filter erleichtern dir die Suche nach bestimmten Duftnoten, sodass du schnell dein neues Parfum passend zu deinen Wünschen findest. Parfum-Neuheiten, die Top 10 der besten Damendüfte oder exquisite Nischendüfte laden zum Stöbern ein – dein neuer Liebling ist bestimmt auch dabei.
+Beliebte Kategorien
+Die Duftpyramide | Duftkonzentrationen | Parfum richtig auftragen | Eau de Parfum | Eau de Toilette | Parfum aufbewahren | Eau de Cologne | Eau Fraiche | Parfum wie frische Wäsche | Parfum wie frisch geduscht
+Homepage
+Parfum
+PARFÜM & DÜFTE0
+PARFÜM & DÜFTE
+(0)
+Hinweise zur Sortierung
+BEAUTY STORYS
+KISSED BY THE SUN
+Sommer-Look
+Sonne, Strand, Meer: Dieses Make-up hält durch!
+KISSED BY THE SUN
+Scents of Summer
+Diese Noten versprühen Leichtigkeit und Lebensfreude.
+GET INSPIRED
+Refill What You Love
+Diese Beauty-Highlights kannst du ganz einfach nachfüllen.
+WEDDING TRENDS 2025
+Bereit für deine Hochzeit?
+So wird dein großer Tag unvergesslich schön.
+PARFÜM: ENTDECKE UNSERE GROSSE VIELFALT FÜR FRAUEN & MÄNNER
+Finde bei Douglas Parfums, die deine Sinne verzaubern und dich mit einem Spritzer in gute Stimmung versetzen. Unsere Düfte – anziehend, frisch oder einzigartig – warten darauf, von dir entdeckt zu werden. Stöber online und lass dich von der Vielfalt der Düfte begeistern!
+PARFÜM ONLINE KAUFEN – MITHILFE DER DUFTPYRAMIDE
+Ein hochwertiges Parfüm wird mit der gleichen Präzision wie ein melodisches Musikwerk kreiert. Es besteht üblicherweise aus 150 bis 250 verschiedenen Komponenten, die gemeinsam die Duftnoten – Kopf, Herz und Basis – formen, welche die sogenannte Duftpyramide aufbauen.
+Kopfnote: Sie wird zuerst wahrgenommen. Sie ist intensiv, verfliegt aber gleichzeitig am schnellsten. Für die Kopfnote werden häufig frische oder sanfte Nuancen wie Bergamotte, Zimt, Zitrusfrüchte oder Minze verwendet.
+Herznote: Sie entfaltet sich etwa zehn Minuten nach dem Auftragen. Sie macht meist den Großteil der Duftkomposition aus und hat eine mittlere Haltbarkeit. Beliebt sind blumige Bouquets mit Iris, Rose oder Jasmin. Auch milde Gewürze, Beeren, Vetiver oder Anis gehören zu populären Duftnuancen der Herznote.
+Basisnote: Sie hält sich am längsten und ist das Fundament der Duftkomposition. Beliebte Aromen sind hier Moschus, Sandelholz, Weihrauch, Patschuli oder Vanille. Als Stabilisator des Dufts geht die Basisnote eine besondere Verbindung mit deiner Haut ein.
+Übrigens: Wie ein Parfüm riecht, wird nicht ausschließlich durch seine Zusammensetzung bestimmt. So entfaltet sich das gleiche Parfüm auf jeder Haut anders und riecht an jedem Menschen unterschiedlich.
+WAS UNTERSCHEIDET EAU DE TOILETTE, EAU DE PARFUM UND CO.?
+Der Unterschied liegt in der Duftöl-Konzentration. Diese bestimmt die Intensität und die Haltbarkeit des Duftes. Hier ist der Überblick über den Duftölgehalt in verschiedenen Parfümtypen:
+Extrait de Parfum: 15-40 %
+Eau de Parfum (EdP): 8-15 %
+Eau de Toilette (EdT): 6-8 %
+Eau de Cologne: 3-6 %
+Eau de Fraîche: < 3%
+WIE HÄLT PARFÜM AM LÄNGSTEN?
+Wie intensiv und langanhaltend der Duft ist, kannst du neben der Wahl der Duftkonzentration dadurch beeinflussen, wo du das Parfüm aufsprühst: Am schnellsten und intensivsten entfalten sich Düfte generell an Stellen, an denen die Haut gut durchblutet und warm ist wie an Hals, Nacken und Dekolleté oder an Armbeuge und Handgelenk. An kühleren Körperregionen wie den Ohrläppchen sind Düfte dagegen besonders langanhaltend. Auch die Haare nehmen den Duft gut und lange an. Kleidung aus natürlichen Materialien wie Wolle oder Baumwolle kannst du ebenfalls parfümieren.
+Tipp: Parfüm nicht verreiben – die Reibung erzeugt Hitze und verändert dabei den Duft. Lass das Parfüm an der Luft trocknen oder klopfe es nur leicht ein.
+PARFUM ONLINE KAUFEN – DEINEN LIEBLINGSDUFT BEI DOUGLAS SHOPPEN
+Ob Damenparfum, Herrendüfte oder Unisex-Parfum: Entdecke deinen neuen Lieblingsduft bei Douglas. Die praktischen Filter erleichtern dir die Suche nach bestimmten Duftnoten, sodass du schnell dein neues Parfum passend zu deinen Wünschen findest. Parfum-Neuheiten, die Top 10 der besten Damendüfte oder exquisite Nischendüfte laden zum Stöbern ein – dein neuer Liebling ist bestimmt auch dabei.
+Beliebte Kategorien
+Die Duftpyramide | Duftkonzentrationen | Parfum richtig auftragen | Eau de Parfum | Eau de Toilette | Parfum aufbewahren | Eau de Cologne | Eau Fraiche | Parfum wie frische Wäsche | Parfum wie frisch geduscht
+Homepage
+Parfum
+PARFÜM & DÜFTE0
+PARFÜM & DÜFTE
+(0)
+Hinweise zur Sortierung
+BEAUTY STORYS
+KISSED BY THE SUN
+Sommer-Look
+Sonne, Strand, Meer: Dieses Make-up hält durch!
+KISSED BY THE SUN
+Scents of Summer
+Diese Noten versprühen Leichtigkeit und Lebensfreude.
+GET INSPIRED
+Refill What You Love
+Diese Beauty-Highlights kannst du ganz einfach nachfüllen.
+WEDDING TRENDS 2025
+Bereit für deine Hochzeit?
+So wird dein großer Tag unvergesslich schön.
+]]></system-out>
+  </testcase>
+  <testcase name="verifyPerfumeProductListWithFilters[Produktart, Eau de Parfum](3)" classname="tests.DouglasTest" time="10.986">
+    <system-out><![CDATA[Schnelle Lieferung
+1–3 Werktage Lieferzeit
+Schnelle Lieferung
+Versandkostenfrei
+ab 34,95 €
+]]></system-out>
+  </testcase>
+  <testcase name="verifyPerfumeProductListWithFilters[Produktart, Eau de Parfum](3)" classname="tests.DouglasTest" time="7.323">
+    <system-out><![CDATA[Homepage
+Parfum
+PARFÜM & DÜFTE0
+PARFÜM & DÜFTE
+(0)
+Filter
+Hinweise zur Sortierung
+Versandkostenfrei ab 34,95 €
+2 Gratis-Proben³
+1–3 Werktage Lieferzeit
+GOODIESBEAUTY CARDFILIALEN
+20 % ohne Code! Alle Aktionsartikel sind bereits reduziert.
+Gehe zurück
+Suche ausführen
+Zur Douglas Startseite
+Zum Storefinder
+Zu Meinem Kundenkonto
+Zu Meiner Wunschliste
+Zum Warenkorb
+ANGEBOTE
+Angebote Menü öffnen
+PARFUM
+Parfum Menü öffnen
+MAKE-UP
+Make-up Menü öffnen
+GESICHT
+Gesicht Menü öffnen
+KÖRPER
+Körper Menü öffnen
+HAARE
+Haare Menü öffnen
+HOME & LIFESTYLE
+Home & Lifestyle Menü öffnen
+MARKEN
+MARKEN Menü öffnen
+DOUGLAS COLLECTION
+Douglas Collection Menü öffnen
+GESCHENKGUTSCHEIN
+SALE
+Sale Menü öffnen
+NACHHALTIGKEIT
+Nachhaltigkeit Menü öffnen
+Jetzt zum Douglas-Newsletter anmelden!
+Erfahre ab sofort alles über die neuesten Beauty-Trends und Angebote.
+E-Mail-Adresse*
+ANMELDEN
+Schnelle Lieferung
+1–3 Werktage Lieferzeit
+Versandkostenfrei
+ab 34,95 €
+2 Gratis-Proben³
+deiner Wahl
+³
+Die Bestellung darf nicht allein aus Adventskalendern und Produkten mit der Kennzeichnung „Douglas Partner“ bestehen.
+Sicher bezahlen
+Schnell versendet
+Alle Preise inkl. gesetzl. MwSt zzgl. Versandkosten.
+Ausgezeichnet shoppen
+Douglas App
+Douglas folgen
+Weitere Fragen?
+Alle Hilfethemen
+Retouren
+Zahlungsarten
+Versand & Lieferung
+Weitere Informationen
+Exklusive Vorteile
+Douglas Marketing Solutions
+Seitenübersicht
+Batterie-/Altgeräteentsorgung
+Verstoß melden
+Compliance Verdachtsfall melden
+Über Douglas
+Über uns
+Jobs & Karriere
+Presse
+Affiliate Partnerprogramm
+Kooperationsanfragen
+Douglas Filialen
+DatenschutzImpressum Alternative StreitbeilegungAGB & WiderrufsrechtDatenschutzeinstellungen
+© 2025 Parfümerie Douglas GmbH & Co. KG.
+Top-Marken
+Typebea
+Keiko Mecheri
+Milk Makeup
+Stanley Cup
+ARMAF
+Transparent Lab
+Lattafa
+SWISS ARABIAN
+Nina Ricci Parfum
+NYX Professional Make-up
+NARS Foundation
+Physicians Formula
+Yves Saint Laurent Kosmetik
+MUGLER Parfum
+Kérastase
+Lancôme Parfum & Kosmetik
+Jean Paul Gaultier Parfum
+FORMEL Skin
+CeraVe
+Florence By Mills
+DOCTOR MI!
+e.l.f. Cosmetics
+Bobbi Brown
+Catrice Cosmetics
+Acqua di Parma Parfum
+Top-Kategorien
+Damen Parfum Top 10
+Parfum Männer Top 10
+Korean Skincare
+Koreanische Kosmetik
+Was ist Squalan?
+Männerparfum
+Oud Parfum
+Rouge
+Parfum für Damen
+Shellac entfernen
+Setting Spray
+Augenbrauen formen
+Kosmetiktaschen
+Retinol Creme
+Eingewachsene Haare
+Mitesser entfernen
+Sonnencreme
+Sleek Zopf
+Eyeliner
+Rosmarinöl für die Haare
+Keratin für die Haare
+Haargummis
+Glossing für die Haare
+Augencreme
+Online-Drogerie
+Top-Produkte
+Douglas Gutschein
+Douglas PDF Gutschein
+Initio Side Effect Eau de Parfum
+Prada Paradoxe Parfum
+BURBERRY Hero Eau de Parfum
+Paco Rabanne Phantom
+XERJOFF Alexandria II Eau de Parfum
+Kilian The Liquors Angels’ Share
+Gisada Ambassador
+Lancôme Idôle Parfum
+Jean Paul Gaultier Le Male Le Parfum
+Tiziana Terenzi - Kirkè Parfum
+Armani Stronger with You Intensely
+RevitaLash Wimpernserum
+Marc Jacobs Daisy - Parfum
+RITUALS Duschschaum
+Giorgio Armani - Si Parfum
+Paco Rabanne One Million
+essie Nagellack
+DIOR Hypnotic Poison
+BOSS Bottled
+DIOR Homme Intense Parfum
+Chloé Signature Parfum
+Estée Lauder Double Wear Foundation
+Jean Paul Gaultier Le Male
+Top-Aktuell
+Sommerkosmetik
+Sommerdüfte 2025
+Sommer Parfum für Damen
+Sommerdüfte für Herren
+Sommertyp
+Make-up mit LSF
+Wasserfestes Make-up
+No Make-up Look
+Morning Shed
+Beauty Gadgets
+Welcher Bart passt zu mir?
+Make-up ohne Mascara
+Koreanische Dauerwelle
+Pomade
+Wirkstoffe kombinieren
+Butter Yellow
+Wie hält Nagellack länger?
+Routine für reife Haut
+Falten am Dekolleté
+Underpainting
+Geschichte des Parfums
+Schminken für Anfänger
+Lip Tint & Lip Stain
+Butterfly Cut
+Arabische Parfums
+Top-Themen
+Douglas Store Services
+Make-up-Services
+Tages-Make-up im Store
+Abend-Make-up im Store
+Kostenlose Rituale im Store
+Studentenrabatt
+Douglas Angebote
+The Ordinary Anwendung
+Make-up Trends 2025
+Taschen Trends 2025
+Haare richtig glätten
+Kokosöl für Haare
+Moringa für die Haare
+Beauty Tipps
+Was hilft gegen Altersflecken auf den Händen?
+Boyfriend Blush
+Peeling für reife Haut
+Korean Sun Stick
+Koreanisches Reinigungsöl
+Korean Skincare für unreine Haut
+Korean Skincare für fettige Haut
+Korean Skincare für trockene Haut
+Koreanische Gesichtspflege für reife Haut
+Gesichtsyoga
+Epilieren
+PARFÜM: ENTDECKE UNSERE GROSSE VIELFALT FÜR FRAUEN & MÄNNER
+Finde bei Douglas Parfums, die deine Sinne verzaubern und dich mit einem Spritzer in gute Stimmung versetzen. Unsere Düfte – anziehend, frisch oder einzigartig – warten darauf, von dir entdeckt zu werden. Stöber online und lass dich von der Vielfalt der Düfte begeistern!
+PARFÜM ONLINE KAUFEN – MITHILFE DER DUFTPYRAMIDE
+Ein hochwertiges Parfüm wird mit der gleichen Präzision wie ein melodisches Musikwerk kreiert. Es besteht üblicherweise aus 150 bis 250 verschiedenen Komponenten, die gemeinsam die Duftnoten – Kopf, Herz und Basis – formen, welche die sogenannte Duftpyramide aufbauen.
+Kopfnote: Sie wird zuerst wahrgenommen. Sie ist intensiv, verfliegt aber gleichzeitig am schnellsten. Für die Kopfnote werden häufig frische oder sanfte Nuancen wie Bergamotte, Zimt, Zitrusfrüchte oder Minze verwendet.
+Herznote: Sie entfaltet sich etwa zehn Minuten nach dem Auftragen. Sie macht meist den Großteil der Duftkomposition aus und hat eine mittlere Haltbarkeit. Beliebt sind blumige Bouquets mit Iris, Rose oder Jasmin. Auch milde Gewürze, Beeren, Vetiver oder Anis gehören zu populären Duftnuancen der Herznote.
+Basisnote: Sie hält sich am längsten und ist das Fundament der Duftkomposition. Beliebte Aromen sind hier Moschus, Sandelholz, Weihrauch, Patschuli oder Vanille. Als Stabilisator des Dufts geht die Basisnote eine besondere Verbindung mit deiner Haut ein.
+Übrigens: Wie ein Parfüm riecht, wird nicht ausschließlich durch seine Zusammensetzung bestimmt. So entfaltet sich das gleiche Parfüm auf jeder Haut anders und riecht an jedem Menschen unterschiedlich.
+WAS UNTERSCHEIDET EAU DE TOILETTE, EAU DE PARFUM UND CO.?
+Der Unterschied liegt in der Duftöl-Konzentration. Diese bestimmt die Intensität und die Haltbarkeit des Duftes. Hier ist der Überblick über den Duftölgehalt in verschiedenen Parfümtypen:
+Extrait de Parfum: 15-40 %
+Eau de Parfum (EdP): 8-15 %
+Eau de Toilette (EdT): 6-8 %
+Eau de Cologne: 3-6 %
+Eau de Fraîche: < 3%
+WIE HÄLT PARFÜM AM LÄNGSTEN?
+Wie intensiv und langanhaltend der Duft ist, kannst du neben der Wahl der Duftkonzentration dadurch beeinflussen, wo du das Parfüm aufsprühst: Am schnellsten und intensivsten entfalten sich Düfte generell an Stellen, an denen die Haut gut durchblutet und warm ist wie an Hals, Nacken und Dekolleté oder an Armbeuge und Handgelenk. An kühleren Körperregionen wie den Ohrläppchen sind Düfte dagegen besonders langanhaltend. Auch die Haare nehmen den Duft gut und lange an. Kleidung aus natürlichen Materialien wie Wolle oder Baumwolle kannst du ebenfalls parfümieren.
+Tipp: Parfüm nicht verreiben – die Reibung erzeugt Hitze und verändert dabei den Duft. Lass das Parfüm an der Luft trocknen oder klopfe es nur leicht ein.
+PARFUM ONLINE KAUFEN – DEINEN LIEBLINGSDUFT BEI DOUGLAS SHOPPEN
+Ob Damenparfum, Herrendüfte oder Unisex-Parfum: Entdecke deinen neuen Lieblingsduft bei Douglas. Die praktischen Filter erleichtern dir die Suche nach bestimmten Duftnoten, sodass du schnell dein neues Parfum passend zu deinen Wünschen findest. Parfum-Neuheiten, die Top 10 der besten Damendüfte oder exquisite Nischendüfte laden zum Stöbern ein – dein neuer Liebling ist bestimmt auch dabei.
+Beliebte Kategorien
+Die Duftpyramide | Duftkonzentrationen | Parfum richtig auftragen | Eau de Parfum | Eau de Toilette | Parfum aufbewahren | Eau de Cologne | Eau Fraiche | Parfum wie frische Wäsche | Parfum wie frisch geduscht
+Homepage
+Parfum
+PARFÜM & DÜFTE0
+PARFÜM & DÜFTE
+(0)
+Filter
+Hinweise zur Sortierung
+BEAUTY STORYS
+KISSED BY THE SUN
+Sommer-Look
+Sonne, Strand, Meer: Dieses Make-up hält durch!
+KISSED BY THE SUN
+Scents of Summer
+Diese Noten versprühen Leichtigkeit und Lebensfreude.
+GET INSPIRED
+Refill What You Love
+Diese Beauty-Highlights kannst du ganz einfach nachfüllen.
+WEDDING TRENDS 2025
+Bereit für deine Hochzeit?
+So wird dein großer Tag unvergesslich schön.
+PARFÜM: ENTDECKE UNSERE GROSSE VIELFALT FÜR FRAUEN & MÄNNER
+Finde bei Douglas Parfums, die deine Sinne verzaubern und dich mit einem Spritzer in gute Stimmung versetzen. Unsere Düfte – anziehend, frisch oder einzigartig – warten darauf, von dir entdeckt zu werden. Stöber online und lass dich von der Vielfalt der Düfte begeistern!
+PARFÜM ONLINE KAUFEN – MITHILFE DER DUFTPYRAMIDE
+Ein hochwertiges Parfüm wird mit der gleichen Präzision wie ein melodisches Musikwerk kreiert. Es besteht üblicherweise aus 150 bis 250 verschiedenen Komponenten, die gemeinsam die Duftnoten – Kopf, Herz und Basis – formen, welche die sogenannte Duftpyramide aufbauen.
+Kopfnote: Sie wird zuerst wahrgenommen. Sie ist intensiv, verfliegt aber gleichzeitig am schnellsten. Für die Kopfnote werden häufig frische oder sanfte Nuancen wie Bergamotte, Zimt, Zitrusfrüchte oder Minze verwendet.
+Herznote: Sie entfaltet sich etwa zehn Minuten nach dem Auftragen. Sie macht meist den Großteil der Duftkomposition aus und hat eine mittlere Haltbarkeit. Beliebt sind blumige Bouquets mit Iris, Rose oder Jasmin. Auch milde Gewürze, Beeren, Vetiver oder Anis gehören zu populären Duftnuancen der Herznote.
+Basisnote: Sie hält sich am längsten und ist das Fundament der Duftkomposition. Beliebte Aromen sind hier Moschus, Sandelholz, Weihrauch, Patschuli oder Vanille. Als Stabilisator des Dufts geht die Basisnote eine besondere Verbindung mit deiner Haut ein.
+Übrigens: Wie ein Parfüm riecht, wird nicht ausschließlich durch seine Zusammensetzung bestimmt. So entfaltet sich das gleiche Parfüm auf jeder Haut anders und riecht an jedem Menschen unterschiedlich.
+WAS UNTERSCHEIDET EAU DE TOILETTE, EAU DE PARFUM UND CO.?
+Der Unterschied liegt in der Duftöl-Konzentration. Diese bestimmt die Intensität und die Haltbarkeit des Duftes. Hier ist der Überblick über den Duftölgehalt in verschiedenen Parfümtypen:
+Extrait de Parfum: 15-40 %
+Eau de Parfum (EdP): 8-15 %
+Eau de Toilette (EdT): 6-8 %
+Eau de Cologne: 3-6 %
+Eau de Fraîche: < 3%
+WIE HÄLT PARFÜM AM LÄNGSTEN?
+Wie intensiv und langanhaltend der Duft ist, kannst du neben der Wahl der Duftkonzentration dadurch beeinflussen, wo du das Parfüm aufsprühst: Am schnellsten und intensivsten entfalten sich Düfte generell an Stellen, an denen die Haut gut durchblutet und warm ist wie an Hals, Nacken und Dekolleté oder an Armbeuge und Handgelenk. An kühleren Körperregionen wie den Ohrläppchen sind Düfte dagegen besonders langanhaltend. Auch die Haare nehmen den Duft gut und lange an. Kleidung aus natürlichen Materialien wie Wolle oder Baumwolle kannst du ebenfalls parfümieren.
+Tipp: Parfüm nicht verreiben – die Reibung erzeugt Hitze und verändert dabei den Duft. Lass das Parfüm an der Luft trocknen oder klopfe es nur leicht ein.
+PARFUM ONLINE KAUFEN – DEINEN LIEBLINGSDUFT BEI DOUGLAS SHOPPEN
+Ob Damenparfum, Herrendüfte oder Unisex-Parfum: Entdecke deinen neuen Lieblingsduft bei Douglas. Die praktischen Filter erleichtern dir die Suche nach bestimmten Duftnoten, sodass du schnell dein neues Parfum passend zu deinen Wünschen findest. Parfum-Neuheiten, die Top 10 der besten Damendüfte oder exquisite Nischendüfte laden zum Stöbern ein – dein neuer Liebling ist bestimmt auch dabei.
+Beliebte Kategorien
+Die Duftpyramide | Duftkonzentrationen | Parfum richtig auftragen | Eau de Parfum | Eau de Toilette | Parfum aufbewahren | Eau de Cologne | Eau Fraiche | Parfum wie frische Wäsche | Parfum wie frisch geduscht
+Homepage
+Parfum
+PARFÜM & DÜFTE0
+PARFÜM & DÜFTE
+(0)
+Filter
+Hinweise zur Sortierung
+BEAUTY STORYS
+KISSED BY THE SUN
+Sommer-Look
+Sonne, Strand, Meer: Dieses Make-up hält durch!
+KISSED BY THE SUN
+Scents of Summer
+Diese Noten versprühen Leichtigkeit und Lebensfreude.
+GET INSPIRED
+Refill What You Love
+Diese Beauty-Highlights kannst du ganz einfach nachfüllen.
+WEDDING TRENDS 2025
+Bereit für deine Hochzeit?
+So wird dein großer Tag unvergesslich schön.
+]]></system-out>
+  </testcase>
+  <testcase name="verifyPerfumeProductListWithFilters[Produktart, Eau de Parfum](3)" classname="tests.DouglasTest" time="11.134">
+    <system-out><![CDATA[
+
+Schnelle Lieferung
+1–3 Werktage Lieferzeit
+]]></system-out>
+  </testcase>
+  <testcase name="verifyPerfumeProductListWithFilters[Geschenk für, Sie](4)" classname="tests.DouglasTest" time="11.23">
+    <system-out><![CDATA[Schnelle Lieferung
+1–3 Werktage Lieferzeit
+Schnelle Lieferung
+Versandkostenfrei
+ab 34,95 €
+]]></system-out>
+  </testcase>
+  <testcase name="verifyPerfumeProductListWithFilters[Geschenk für, Sie](4)" classname="tests.DouglasTest" time="10.645">
+    <system-out><![CDATA[Homepage
+Parfum
+PARFÜM & DÜFTE0
+PARFÜM & DÜFTE
+(0)
+Filter
+Hinweise zur Sortierung
+BEAUTY STORYS
+KISSED BY THE SUN
+Sommer-Look
+Sonne, Strand, Meer: Dieses Make-up hält durch!
+KISSED BY THE SUN
+Scents of Summer
+Diese Noten versprühen Leichtigkeit und Lebensfreude.
+GET INSPIRED
+Refill What You Love
+Diese Beauty-Highlights kannst du ganz einfach nachfüllen.
+WEDDING TRENDS 2025
+Bereit für deine Hochzeit?
+So wird dein großer Tag unvergesslich schön.
+PARFÜM: ENTDECKE UNSERE GROSSE VIELFALT FÜR FRAUEN & MÄNNER
+Finde bei Douglas Parfums, die deine Sinne verzaubern und dich mit einem Spritzer in gute Stimmung versetzen. Unsere Düfte – anziehend, frisch oder einzigartig – warten darauf, von dir entdeckt zu werden. Stöber online und lass dich von der Vielfalt der Düfte begeistern!
+PARFÜM ONLINE KAUFEN – MITHILFE DER DUFTPYRAMIDE
+Ein hochwertiges Parfüm wird mit der gleichen Präzision wie ein melodisches Musikwerk kreiert. Es besteht üblicherweise aus 150 bis 250 verschiedenen Komponenten, die gemeinsam die Duftnoten – Kopf, Herz und Basis – formen, welche die sogenannte Duftpyramide aufbauen.
+Kopfnote: Sie wird zuerst wahrgenommen. Sie ist intensiv, verfliegt aber gleichzeitig am schnellsten. Für die Kopfnote werden häufig frische oder sanfte Nuancen wie Bergamotte, Zimt, Zitrusfrüchte oder Minze verwendet.
+Herznote: Sie entfaltet sich etwa zehn Minuten nach dem Auftragen. Sie macht meist den Großteil der Duftkomposition aus und hat eine mittlere Haltbarkeit. Beliebt sind blumige Bouquets mit Iris, Rose oder Jasmin. Auch milde Gewürze, Beeren, Vetiver oder Anis gehören zu populären Duftnuancen der Herznote.
+Basisnote: Sie hält sich am längsten und ist das Fundament der Duftkomposition. Beliebte Aromen sind hier Moschus, Sandelholz, Weihrauch, Patschuli oder Vanille. Als Stabilisator des Dufts geht die Basisnote eine besondere Verbindung mit deiner Haut ein.
+Übrigens: Wie ein Parfüm riecht, wird nicht ausschließlich durch seine Zusammensetzung bestimmt. So entfaltet sich das gleiche Parfüm auf jeder Haut anders und riecht an jedem Menschen unterschiedlich.
+WAS UNTERSCHEIDET EAU DE TOILETTE, EAU DE PARFUM UND CO.?
+Der Unterschied liegt in der Duftöl-Konzentration. Diese bestimmt die Intensität und die Haltbarkeit des Duftes. Hier ist der Überblick über den Duftölgehalt in verschiedenen Parfümtypen:
+Extrait de Parfum: 15-40 %
+Eau de Parfum (EdP): 8-15 %
+Eau de Toilette (EdT): 6-8 %
+Eau de Cologne: 3-6 %
+Eau de Fraîche: < 3%
+WIE HÄLT PARFÜM AM LÄNGSTEN?
+Wie intensiv und langanhaltend der Duft ist, kannst du neben der Wahl der Duftkonzentration dadurch beeinflussen, wo du das Parfüm aufsprühst: Am schnellsten und intensivsten entfalten sich Düfte generell an Stellen, an denen die Haut gut durchblutet und warm ist wie an Hals, Nacken und Dekolleté oder an Armbeuge und Handgelenk. An kühleren Körperregionen wie den Ohrläppchen sind Düfte dagegen besonders langanhaltend. Auch die Haare nehmen den Duft gut und lange an. Kleidung aus natürlichen Materialien wie Wolle oder Baumwolle kannst du ebenfalls parfümieren.
+Tipp: Parfüm nicht verreiben – die Reibung erzeugt Hitze und verändert dabei den Duft. Lass das Parfüm an der Luft trocknen oder klopfe es nur leicht ein.
+PARFUM ONLINE KAUFEN – DEINEN LIEBLINGSDUFT BEI DOUGLAS SHOPPEN
+Ob Damenparfum, Herrendüfte oder Unisex-Parfum: Entdecke deinen neuen Lieblingsduft bei Douglas. Die praktischen Filter erleichtern dir die Suche nach bestimmten Duftnoten, sodass du schnell dein neues Parfum passend zu deinen Wünschen findest. Parfum-Neuheiten, die Top 10 der besten Damendüfte oder exquisite Nischendüfte laden zum Stöbern ein – dein neuer Liebling ist bestimmt auch dabei.
+Beliebte Kategorien
+Die Duftpyramide | Duftkonzentrationen | Parfum richtig auftragen | Eau de Parfum | Eau de Toilette | Parfum aufbewahren | Eau de Cologne | Eau Fraiche | Parfum wie frische Wäsche | Parfum wie frisch geduscht
+Homepage
+Parfum
+PARFÜM & DÜFTE0
+PARFÜM & DÜFTE
+(0)
+Filter
+Hinweise zur Sortierung
+BEAUTY STORYS
+KISSED BY THE SUN
+Sommer-Look
+Sonne, Strand, Meer: Dieses Make-up hält durch!
+KISSED BY THE SUN
+Scents of Summer
+Diese Noten versprühen Leichtigkeit und Lebensfreude.
+GET INSPIRED
+Refill What You Love
+Diese Beauty-Highlights kannst du ganz einfach nachfüllen.
+WEDDING TRENDS 2025
+Bereit für deine Hochzeit?
+So wird dein großer Tag unvergesslich schön.
+PARFÜM: ENTDECKE UNSERE GROSSE VIELFALT FÜR FRAUEN & MÄNNER
+Finde bei Douglas Parfums, die deine Sinne verzaubern und dich mit einem Spritzer in gute Stimmung versetzen. Unsere Düfte – anziehend, frisch oder einzigartig – warten darauf, von dir entdeckt zu werden. Stöber online und lass dich von der Vielfalt der Düfte begeistern!
+PARFÜM ONLINE KAUFEN – MITHILFE DER DUFTPYRAMIDE
+Ein hochwertiges Parfüm wird mit der gleichen Präzision wie ein melodisches Musikwerk kreiert. Es besteht üblicherweise aus 150 bis 250 verschiedenen Komponenten, die gemeinsam die Duftnoten – Kopf, Herz und Basis – formen, welche die sogenannte Duftpyramide aufbauen.
+Kopfnote: Sie wird zuerst wahrgenommen. Sie ist intensiv, verfliegt aber gleichzeitig am schnellsten. Für die Kopfnote werden häufig frische oder sanfte Nuancen wie Bergamotte, Zimt, Zitrusfrüchte oder Minze verwendet.
+Herznote: Sie entfaltet sich etwa zehn Minuten nach dem Auftragen. Sie macht meist den Großteil der Duftkomposition aus und hat eine mittlere Haltbarkeit. Beliebt sind blumige Bouquets mit Iris, Rose oder Jasmin. Auch milde Gewürze, Beeren, Vetiver oder Anis gehören zu populären Duftnuancen der Herznote.
+Basisnote: Sie hält sich am längsten und ist das Fundament der Duftkomposition. Beliebte Aromen sind hier Moschus, Sandelholz, Weihrauch, Patschuli oder Vanille. Als Stabilisator des Dufts geht die Basisnote eine besondere Verbindung mit deiner Haut ein.
+Übrigens: Wie ein Parfüm riecht, wird nicht ausschließlich durch seine Zusammensetzung bestimmt. So entfaltet sich das gleiche Parfüm auf jeder Haut anders und riecht an jedem Menschen unterschiedlich.
+WAS UNTERSCHEIDET EAU DE TOILETTE, EAU DE PARFUM UND CO.?
+Der Unterschied liegt in der Duftöl-Konzentration. Diese bestimmt die Intensität und die Haltbarkeit des Duftes. Hier ist der Überblick über den Duftölgehalt in verschiedenen Parfümtypen:
+Extrait de Parfum: 15-40 %
+Eau de Parfum (EdP): 8-15 %
+Eau de Toilette (EdT): 6-8 %
+Eau de Cologne: 3-6 %
+Eau de Fraîche: < 3%
+WIE HÄLT PARFÜM AM LÄNGSTEN?
+Wie intensiv und langanhaltend der Duft ist, kannst du neben der Wahl der Duftkonzentration dadurch beeinflussen, wo du das Parfüm aufsprühst: Am schnellsten und intensivsten entfalten sich Düfte generell an Stellen, an denen die Haut gut durchblutet und warm ist wie an Hals, Nacken und Dekolleté oder an Armbeuge und Handgelenk. An kühleren Körperregionen wie den Ohrläppchen sind Düfte dagegen besonders langanhaltend. Auch die Haare nehmen den Duft gut und lange an. Kleidung aus natürlichen Materialien wie Wolle oder Baumwolle kannst du ebenfalls parfümieren.
+Tipp: Parfüm nicht verreiben – die Reibung erzeugt Hitze und verändert dabei den Duft. Lass das Parfüm an der Luft trocknen oder klopfe es nur leicht ein.
+PARFUM ONLINE KAUFEN – DEINEN LIEBLINGSDUFT BEI DOUGLAS SHOPPEN
+Ob Damenparfum, Herrendüfte oder Unisex-Parfum: Entdecke deinen neuen Lieblingsduft bei Douglas. Die praktischen Filter erleichtern dir die Suche nach bestimmten Duftnoten, sodass du schnell dein neues Parfum passend zu deinen Wünschen findest. Parfum-Neuheiten, die Top 10 der besten Damendüfte oder exquisite Nischendüfte laden zum Stöbern ein – dein neuer Liebling ist bestimmt auch dabei.
+Beliebte Kategorien
+Die Duftpyramide | Duftkonzentrationen | Parfum richtig auftragen | Eau de Parfum | Eau de Toilette | Parfum aufbewahren | Eau de Cologne | Eau Fraiche | Parfum wie frische Wäsche | Parfum wie frisch geduscht
+
+
+Homepage
+Parfum
+PARFÜM & DÜFTE0
+PARFÜM & DÜFTE
+(0)
+Filter
+Hinweise zur Sortierung
+BEAUTY STORYS
+KISSED BY THE SUN
+Sommer-Look
+Sonne, Strand, Meer: Dieses Make-up hält durch!
+KISSED BY THE SUN
+Scents of Summer
+Diese Noten versprühen Leichtigkeit und Lebensfreude.
+GET INSPIRED
+Refill What You Love
+Diese Beauty-Highlights kannst du ganz einfach nachfüllen.
+WEDDING TRENDS 2025
+Bereit für deine Hochzeit?
+So wird dein großer Tag unvergesslich schön.
+]]></system-out>
+  </testcase>
+  <testcase name="verifyPerfumeProductListWithFilters[Geschenk für, Sie](4)" classname="tests.DouglasTest" time="10.753">
+    <system-out><![CDATA[Schnelle Lieferung
+1–3 Werktage Lieferzeit
+]]></system-out>
+  </testcase>
+  <testcase name="verifyPerfumeProductListWithFilters[Für Wen, Damen](5)" classname="tests.DouglasTest" time="10.639">
+    <system-out><![CDATA[Schnelle Lieferung
+1–3 Werktage Lieferzeit
+Schnelle Lieferung
+Versandkostenfrei
+ab 34,95 €
+]]></system-out>
+  </testcase>
+  <testcase name="verifyPerfumeProductListWithFilters[Für Wen, Damen](5)" classname="tests.DouglasTest" time="12.141">
+    <system-out><![CDATA[
+
+Schnelle Lieferung
+1–3 Werktage Lieferzeit
+]]></system-out>
+  </testcase>
+  <testcase name="verifyPerfumeProductListWithFilters[Für Wen, Damen](5)" classname="tests.DouglasTest" time="15.532">
+    <system-out><![CDATA[Homepage
+Parfum
+PARFÜM & DÜFTE0
+PARFÜM & DÜFTE
+(0)
+Filter
+Hinweise zur Sortierung
+Versandkostenfrei ab 34,95 €
+2 Gratis-Proben³
+1–3 Werktage Lieferzeit
+GOODIESBEAUTY CARDFILIALEN
+20 % ohne Code! Alle Aktionsartikel sind bereits reduziert.
+Gehe zurück
+Suche ausführen
+Zur Douglas Startseite
+Zum Storefinder
+Zu Meinem Kundenkonto
+Zu Meiner Wunschliste
+Zum Warenkorb
+ANGEBOTE
+Angebote Menü öffnen
+PARFUM
+Parfum Menü öffnen
+MAKE-UP
+Make-up Menü öffnen
+GESICHT
+Gesicht Menü öffnen
+KÖRPER
+Körper Menü öffnen
+HAARE
+Haare Menü öffnen
+HOME & LIFESTYLE
+Home & Lifestyle Menü öffnen
+MARKEN
+MARKEN Menü öffnen
+DOUGLAS COLLECTION
+Douglas Collection Menü öffnen
+GESCHENKGUTSCHEIN
+SALE
+Sale Menü öffnen
+NACHHALTIGKEIT
+Nachhaltigkeit Menü öffnen
+Jetzt zum Douglas-Newsletter anmelden!
+Erfahre ab sofort alles über die neuesten Beauty-Trends und Angebote.
+E-Mail-Adresse*
+ANMELDEN
+Schnelle Lieferung
+1–3 Werktage Lieferzeit
+Versandkostenfrei
+ab 34,95 €
+2 Gratis-Proben³
+deiner Wahl
+³
+Die Bestellung darf nicht allein aus Adventskalendern und Produkten mit der Kennzeichnung „Douglas Partner“ bestehen.
+Sicher bezahlen
+Schnell versendet
+Alle Preise inkl. gesetzl. MwSt zzgl. Versandkosten.
+Ausgezeichnet shoppen
+Douglas App
+Douglas folgen
+Weitere Fragen?
+Alle Hilfethemen
+Retouren
+Zahlungsarten
+Versand & Lieferung
+Weitere Informationen
+Exklusive Vorteile
+Douglas Marketing Solutions
+Seitenübersicht
+Batterie-/Altgeräteentsorgung
+Verstoß melden
+Compliance Verdachtsfall melden
+Über Douglas
+Über uns
+Jobs & Karriere
+Presse
+Affiliate Partnerprogramm
+Kooperationsanfragen
+Douglas Filialen
+DatenschutzImpressum Alternative StreitbeilegungAGB & WiderrufsrechtDatenschutzeinstellungen
+© 2025 Parfümerie Douglas GmbH & Co. KG.
+Top-Marken
+Typebea
+Keiko Mecheri
+Milk Makeup
+Stanley Cup
+ARMAF
+Transparent Lab
+Lattafa
+SWISS ARABIAN
+Nina Ricci Parfum
+NYX Professional Make-up
+NARS Foundation
+Physicians Formula
+Yves Saint Laurent Kosmetik
+MUGLER Parfum
+Kérastase
+Lancôme Parfum & Kosmetik
+Jean Paul Gaultier Parfum
+FORMEL Skin
+CeraVe
+Florence By Mills
+DOCTOR MI!
+e.l.f. Cosmetics
+Bobbi Brown
+Catrice Cosmetics
+Acqua di Parma Parfum
+Top-Kategorien
+Damen Parfum Top 10
+Parfum Männer Top 10
+Korean Skincare
+Koreanische Kosmetik
+Was ist Squalan?
+Männerparfum
+Oud Parfum
+Rouge
+Parfum für Damen
+Shellac entfernen
+Setting Spray
+Augenbrauen formen
+Kosmetiktaschen
+Retinol Creme
+Eingewachsene Haare
+Mitesser entfernen
+Sonnencreme
+Sleek Zopf
+Eyeliner
+Rosmarinöl für die Haare
+Keratin für die Haare
+Haargummis
+Glossing für die Haare
+Augencreme
+Online-Drogerie
+Top-Produkte
+Douglas Gutschein
+Douglas PDF Gutschein
+Initio Side Effect Eau de Parfum
+Prada Paradoxe Parfum
+BURBERRY Hero Eau de Parfum
+Paco Rabanne Phantom
+XERJOFF Alexandria II Eau de Parfum
+Kilian The Liquors Angels’ Share
+Gisada Ambassador
+Lancôme Idôle Parfum
+Jean Paul Gaultier Le Male Le Parfum
+Tiziana Terenzi - Kirkè Parfum
+Armani Stronger with You Intensely
+RevitaLash Wimpernserum
+Marc Jacobs Daisy - Parfum
+RITUALS Duschschaum
+Giorgio Armani - Si Parfum
+Paco Rabanne One Million
+essie Nagellack
+DIOR Hypnotic Poison
+BOSS Bottled
+DIOR Homme Intense Parfum
+Chloé Signature Parfum
+Estée Lauder Double Wear Foundation
+Jean Paul Gaultier Le Male
+Top-Aktuell
+Sommerkosmetik
+Sommerdüfte 2025
+Sommer Parfum für Damen
+Sommerdüfte für Herren
+Sommertyp
+Make-up mit LSF
+Wasserfestes Make-up
+No Make-up Look
+Morning Shed
+Beauty Gadgets
+Welcher Bart passt zu mir?
+Make-up ohne Mascara
+Koreanische Dauerwelle
+Pomade
+Wirkstoffe kombinieren
+Butter Yellow
+Wie hält Nagellack länger?
+Routine für reife Haut
+Falten am Dekolleté
+Underpainting
+Geschichte des Parfums
+Schminken für Anfänger
+Lip Tint & Lip Stain
+Butterfly Cut
+Arabische Parfums
+Top-Themen
+Douglas Store Services
+Make-up-Services
+Tages-Make-up im Store
+Abend-Make-up im Store
+Kostenlose Rituale im Store
+Studentenrabatt
+Douglas Angebote
+The Ordinary Anwendung
+Make-up Trends 2025
+Taschen Trends 2025
+Haare richtig glätten
+Kokosöl für Haare
+Moringa für die Haare
+Beauty Tipps
+Was hilft gegen Altersflecken auf den Händen?
+Boyfriend Blush
+Peeling für reife Haut
+Korean Sun Stick
+Koreanisches Reinigungsöl
+Korean Skincare für unreine Haut
+Korean Skincare für fettige Haut
+Korean Skincare für trockene Haut
+Koreanische Gesichtspflege für reife Haut
+Gesichtsyoga
+Epilieren
+PARFÜM: ENTDECKE UNSERE GROSSE VIELFALT FÜR FRAUEN & MÄNNER
+Finde bei Douglas Parfums, die deine Sinne verzaubern und dich mit einem Spritzer in gute Stimmung versetzen. Unsere Düfte – anziehend, frisch oder einzigartig – warten darauf, von dir entdeckt zu werden. Stöber online und lass dich von der Vielfalt der Düfte begeistern!
+PARFÜM ONLINE KAUFEN – MITHILFE DER DUFTPYRAMIDE
+Ein hochwertiges Parfüm wird mit der gleichen Präzision wie ein melodisches Musikwerk kreiert. Es besteht üblicherweise aus 150 bis 250 verschiedenen Komponenten, die gemeinsam die Duftnoten – Kopf, Herz und Basis – formen, welche die sogenannte Duftpyramide aufbauen.
+Kopfnote: Sie wird zuerst wahrgenommen. Sie ist intensiv, verfliegt aber gleichzeitig am schnellsten. Für die Kopfnote werden häufig frische oder sanfte Nuancen wie Bergamotte, Zimt, Zitrusfrüchte oder Minze verwendet.
+Herznote: Sie entfaltet sich etwa zehn Minuten nach dem Auftragen. Sie macht meist den Großteil der Duftkomposition aus und hat eine mittlere Haltbarkeit. Beliebt sind blumige Bouquets mit Iris, Rose oder Jasmin. Auch milde Gewürze, Beeren, Vetiver oder Anis gehören zu populären Duftnuancen der Herznote.
+Basisnote: Sie hält sich am längsten und ist das Fundament der Duftkomposition. Beliebte Aromen sind hier Moschus, Sandelholz, Weihrauch, Patschuli oder Vanille. Als Stabilisator des Dufts geht die Basisnote eine besondere Verbindung mit deiner Haut ein.
+Übrigens: Wie ein Parfüm riecht, wird nicht ausschließlich durch seine Zusammensetzung bestimmt. So entfaltet sich das gleiche Parfüm auf jeder Haut anders und riecht an jedem Menschen unterschiedlich.
+WAS UNTERSCHEIDET EAU DE TOILETTE, EAU DE PARFUM UND CO.?
+Der Unterschied liegt in der Duftöl-Konzentration. Diese bestimmt die Intensität und die Haltbarkeit des Duftes. Hier ist der Überblick über den Duftölgehalt in verschiedenen Parfümtypen:
+Extrait de Parfum: 15-40 %
+Eau de Parfum (EdP): 8-15 %
+Eau de Toilette (EdT): 6-8 %
+Eau de Cologne: 3-6 %
+Eau de Fraîche: < 3%
+WIE HÄLT PARFÜM AM LÄNGSTEN?
+Wie intensiv und langanhaltend der Duft ist, kannst du neben der Wahl der Duftkonzentration dadurch beeinflussen, wo du das Parfüm aufsprühst: Am schnellsten und intensivsten entfalten sich Düfte generell an Stellen, an denen die Haut gut durchblutet und warm ist wie an Hals, Nacken und Dekolleté oder an Armbeuge und Handgelenk. An kühleren Körperregionen wie den Ohrläppchen sind Düfte dagegen besonders langanhaltend. Auch die Haare nehmen den Duft gut und lange an. Kleidung aus natürlichen Materialien wie Wolle oder Baumwolle kannst du ebenfalls parfümieren.
+Tipp: Parfüm nicht verreiben – die Reibung erzeugt Hitze und verändert dabei den Duft. Lass das Parfüm an der Luft trocknen oder klopfe es nur leicht ein.
+PARFUM ONLINE KAUFEN – DEINEN LIEBLINGSDUFT BEI DOUGLAS SHOPPEN
+Ob Damenparfum, Herrendüfte oder Unisex-Parfum: Entdecke deinen neuen Lieblingsduft bei Douglas. Die praktischen Filter erleichtern dir die Suche nach bestimmten Duftnoten, sodass du schnell dein neues Parfum passend zu deinen Wünschen findest. Parfum-Neuheiten, die Top 10 der besten Damendüfte oder exquisite Nischendüfte laden zum Stöbern ein – dein neuer Liebling ist bestimmt auch dabei.
+Beliebte Kategorien
+Die Duftpyramide | Duftkonzentrationen | Parfum richtig auftragen | Eau de Parfum | Eau de Toilette | Parfum aufbewahren | Eau de Cologne | Eau Fraiche | Parfum wie frische Wäsche | Parfum wie frisch geduscht
+Homepage
+Parfum
+PARFÜM & DÜFTE0
+PARFÜM & DÜFTE
+(0)
+Filter
+Hinweise zur Sortierung
+Versandkostenfrei ab 34,95 €
+2 Gratis-Proben³
+1–3 Werktage Lieferzeit
+GOODIESBEAUTY CARDFILIALEN
+20 % ohne Code! Alle Aktionsartikel sind bereits reduziert.
+Gehe zurück
+Suche ausführen
+Zur Douglas Startseite
+Zum Storefinder
+Zu Meinem Kundenkonto
+Zu Meiner Wunschliste
+Zum Warenkorb
+ANGEBOTE
+Angebote Menü öffnen
+PARFUM
+Parfum Menü öffnen
+MAKE-UP
+Make-up Menü öffnen
+GESICHT
+Gesicht Menü öffnen
+KÖRPER
+Körper Menü öffnen
+HAARE
+Haare Menü öffnen
+HOME & LIFESTYLE
+Home & Lifestyle Menü öffnen
+MARKEN
+MARKEN Menü öffnen
+DOUGLAS COLLECTION
+Douglas Collection Menü öffnen
+GESCHENKGUTSCHEIN
+SALE
+Sale Menü öffnen
+NACHHALTIGKEIT
+Nachhaltigkeit Menü öffnen
+Jetzt zum Douglas-Newsletter anmelden!
+Erfahre ab sofort alles über die neuesten Beauty-Trends und Angebote.
+E-Mail-Adresse*
+ANMELDEN
+Schnelle Lieferung
+1–3 Werktage Lieferzeit
+Versandkostenfrei
+ab 34,95 €
+2 Gratis-Proben³
+deiner Wahl
+³
+Die Bestellung darf nicht allein aus Adventskalendern und Produkten mit der Kennzeichnung „Douglas Partner“ bestehen.
+Sicher bezahlen
+Schnell versendet
+Alle Preise inkl. gesetzl. MwSt zzgl. Versandkosten.
+Ausgezeichnet shoppen
+Douglas App
+Douglas folgen
+Weitere Fragen?
+Alle Hilfethemen
+Retouren
+Zahlungsarten
+Versand & Lieferung
+Weitere Informationen
+Exklusive Vorteile
+Douglas Marketing Solutions
+Seitenübersicht
+Batterie-/Altgeräteentsorgung
+Verstoß melden
+Compliance Verdachtsfall melden
+Über Douglas
+Über uns
+Jobs & Karriere
+Presse
+Affiliate Partnerprogramm
+Kooperationsanfragen
+Douglas Filialen
+DatenschutzImpressum Alternative StreitbeilegungAGB & WiderrufsrechtDatenschutzeinstellungen
+© 2025 Parfümerie Douglas GmbH & Co. KG.
+Top-Marken
+Typebea
+Keiko Mecheri
+Milk Makeup
+Stanley Cup
+ARMAF
+Transparent Lab
+Lattafa
+SWISS ARABIAN
+Nina Ricci Parfum
+NYX Professional Make-up
+NARS Foundation
+Physicians Formula
+Yves Saint Laurent Kosmetik
+MUGLER Parfum
+Kérastase
+Lancôme Parfum & Kosmetik
+Jean Paul Gaultier Parfum
+FORMEL Skin
+CeraVe
+Florence By Mills
+DOCTOR MI!
+e.l.f. Cosmetics
+Bobbi Brown
+Catrice Cosmetics
+Acqua di Parma Parfum
+Top-Kategorien
+Damen Parfum Top 10
+Parfum Männer Top 10
+Korean Skincare
+Koreanische Kosmetik
+Was ist Squalan?
+Männerparfum
+Oud Parfum
+Rouge
+Parfum für Damen
+Shellac entfernen
+Setting Spray
+Augenbrauen formen
+Kosmetiktaschen
+Retinol Creme
+Eingewachsene Haare
+Mitesser entfernen
+Sonnencreme
+Sleek Zopf
+Eyeliner
+Rosmarinöl für die Haare
+Keratin für die Haare
+Haargummis
+Glossing für die Haare
+Augencreme
+Online-Drogerie
+Top-Produkte
+Douglas Gutschein
+Douglas PDF Gutschein
+Initio Side Effect Eau de Parfum
+Prada Paradoxe Parfum
+BURBERRY Hero Eau de Parfum
+Paco Rabanne Phantom
+XERJOFF Alexandria II Eau de Parfum
+Kilian The Liquors Angels’ Share
+Gisada Ambassador
+Lancôme Idôle Parfum
+Jean Paul Gaultier Le Male Le Parfum
+Tiziana Terenzi - Kirkè Parfum
+Armani Stronger with You Intensely
+RevitaLash Wimpernserum
+Marc Jacobs Daisy - Parfum
+RITUALS Duschschaum
+Giorgio Armani - Si Parfum
+Paco Rabanne One Million
+essie Nagellack
+DIOR Hypnotic Poison
+BOSS Bottled
+DIOR Homme Intense Parfum
+Chloé Signature Parfum
+Estée Lauder Double Wear Foundation
+Jean Paul Gaultier Le Male
+Top-Aktuell
+Sommerkosmetik
+Sommerdüfte 2025
+Sommer Parfum für Damen
+Sommerdüfte für Herren
+Sommertyp
+Make-up mit LSF
+Wasserfestes Make-up
+No Make-up Look
+Morning Shed
+Beauty Gadgets
+Welcher Bart passt zu mir?
+Make-up ohne Mascara
+Koreanische Dauerwelle
+Pomade
+Wirkstoffe kombinieren
+Butter Yellow
+Wie hält Nagellack länger?
+Routine für reife Haut
+Falten am Dekolleté
+Underpainting
+Geschichte des Parfums
+Schminken für Anfänger
+Lip Tint & Lip Stain
+Butterfly Cut
+Arabische Parfums
+Top-Themen
+Douglas Store Services
+Make-up-Services
+Tages-Make-up im Store
+Abend-Make-up im Store
+Kostenlose Rituale im Store
+Studentenrabatt
+Douglas Angebote
+The Ordinary Anwendung
+Make-up Trends 2025
+Taschen Trends 2025
+Haare richtig glätten
+Kokosöl für Haare
+Moringa für die Haare
+Beauty Tipps
+Was hilft gegen Altersflecken auf den Händen?
+Boyfriend Blush
+Peeling für reife Haut
+Korean Sun Stick
+Koreanisches Reinigungsöl
+Korean Skincare für unreine Haut
+Korean Skincare für fettige Haut
+Korean Skincare für trockene Haut
+Koreanische Gesichtspflege für reife Haut
+Gesichtsyoga
+Epilieren
+PARFÜM: ENTDECKE UNSERE GROSSE VIELFALT FÜR FRAUEN & MÄNNER
+Finde bei Douglas Parfums, die deine Sinne verzaubern und dich mit einem Spritzer in gute Stimmung versetzen. Unsere Düfte – anziehend, frisch oder einzigartig – warten darauf, von dir entdeckt zu werden. Stöber online und lass dich von der Vielfalt der Düfte begeistern!
+PARFÜM ONLINE KAUFEN – MITHILFE DER DUFTPYRAMIDE
+Ein hochwertiges Parfüm wird mit der gleichen Präzision wie ein melodisches Musikwerk kreiert. Es besteht üblicherweise aus 150 bis 250 verschiedenen Komponenten, die gemeinsam die Duftnoten – Kopf, Herz und Basis – formen, welche die sogenannte Duftpyramide aufbauen.
+Kopfnote: Sie wird zuerst wahrgenommen. Sie ist intensiv, verfliegt aber gleichzeitig am schnellsten. Für die Kopfnote werden häufig frische oder sanfte Nuancen wie Bergamotte, Zimt, Zitrusfrüchte oder Minze verwendet.
+Herznote: Sie entfaltet sich etwa zehn Minuten nach dem Auftragen. Sie macht meist den Großteil der Duftkomposition aus und hat eine mittlere Haltbarkeit. Beliebt sind blumige Bouquets mit Iris, Rose oder Jasmin. Auch milde Gewürze, Beeren, Vetiver oder Anis gehören zu populären Duftnuancen der Herznote.
+Basisnote: Sie hält sich am längsten und ist das Fundament der Duftkomposition. Beliebte Aromen sind hier Moschus, Sandelholz, Weihrauch, Patschuli oder Vanille. Als Stabilisator des Dufts geht die Basisnote eine besondere Verbindung mit deiner Haut ein.
+Übrigens: Wie ein Parfüm riecht, wird nicht ausschließlich durch seine Zusammensetzung bestimmt. So entfaltet sich das gleiche Parfüm auf jeder Haut anders und riecht an jedem Menschen unterschiedlich.
+WAS UNTERSCHEIDET EAU DE TOILETTE, EAU DE PARFUM UND CO.?
+Der Unterschied liegt in der Duftöl-Konzentration. Diese bestimmt die Intensität und die Haltbarkeit des Duftes. Hier ist der Überblick über den Duftölgehalt in verschiedenen Parfümtypen:
+Extrait de Parfum: 15-40 %
+Eau de Parfum (EdP): 8-15 %
+Eau de Toilette (EdT): 6-8 %
+Eau de Cologne: 3-6 %
+Eau de Fraîche: < 3%
+WIE HÄLT PARFÜM AM LÄNGSTEN?
+Wie intensiv und langanhaltend der Duft ist, kannst du neben der Wahl der Duftkonzentration dadurch beeinflussen, wo du das Parfüm aufsprühst: Am schnellsten und intensivsten entfalten sich Düfte generell an Stellen, an denen die Haut gut durchblutet und warm ist wie an Hals, Nacken und Dekolleté oder an Armbeuge und Handgelenk. An kühleren Körperregionen wie den Ohrläppchen sind Düfte dagegen besonders langanhaltend. Auch die Haare nehmen den Duft gut und lange an. Kleidung aus natürlichen Materialien wie Wolle oder Baumwolle kannst du ebenfalls parfümieren.
+Tipp: Parfüm nicht verreiben – die Reibung erzeugt Hitze und verändert dabei den Duft. Lass das Parfüm an der Luft trocknen oder klopfe es nur leicht ein.
+PARFUM ONLINE KAUFEN – DEINEN LIEBLINGSDUFT BEI DOUGLAS SHOPPEN
+Ob Damenparfum, Herrendüfte oder Unisex-Parfum: Entdecke deinen neuen Lieblingsduft bei Douglas. Die praktischen Filter erleichtern dir die Suche nach bestimmten Duftnoten, sodass du schnell dein neues Parfum passend zu deinen Wünschen findest. Parfum-Neuheiten, die Top 10 der besten Damendüfte oder exquisite Nischendüfte laden zum Stöbern ein – dein neuer Liebling ist bestimmt auch dabei.
+Beliebte Kategorien
+Die Duftpyramide | Duftkonzentrationen | Parfum richtig auftragen | Eau de Parfum | Eau de Toilette | Parfum aufbewahren | Eau de Cologne | Eau Fraiche | Parfum wie frische Wäsche | Parfum wie frisch geduscht
+Homepage
+Parfum
+PARFÜM & DÜFTE0
+PARFÜM & DÜFTE
+(0)
+Filter
+Hinweise zur Sortierung
+BEAUTY STORYS
+KISSED BY THE SUN
+Sommer-Look
+Sonne, Strand, Meer: Dieses Make-up hält durch!
+KISSED BY THE SUN
+Scents of Summer
+Diese Noten versprühen Leichtigkeit und Lebensfreude.
+GET INSPIRED
+Refill What You Love
+Diese Beauty-Highlights kannst du ganz einfach nachfüllen.
+WEDDING TRENDS 2025
+Bereit für deine Hochzeit?
+So wird dein großer Tag unvergesslich schön.
+]]></system-out>
+  </testcase>
+</testsuite>

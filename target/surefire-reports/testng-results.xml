@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="21" passed="21" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-06-09T13:24:43 IST" name="CrossBrowserSuite" finished-at="2025-06-09T13:33:02 IST" duration-ms="498671">
+    <groups>
+    </groups>
+    <test started-at="2025-06-09T13:24:43 IST" name="Firefox Test" finished-at="2025-06-09T13:31:21 IST" duration-ms="397638">
+      <class name="tests.DouglasTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.DouglasTest@1807e3f6]" started-at="2025-06-09T13:24:43 IST" name="setup" finished-at="2025-06-09T13:24:57 IST" duration-ms="13828" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="goToPerfumePage()[pri:0, instance:tests.DouglasTest@1807e3f6]" started-at="2025-06-09T13:24:57 IST" name="goToPerfumePage" finished-at="2025-06-09T13:25:41 IST" duration-ms="44226" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToPerfumePage -->
+        <test-method signature="acceptCookie()[pri:0, instance:tests.DouglasTest@1807e3f6]" started-at="2025-06-09T13:25:42 IST" name="acceptCookie" finished-at="2025-06-09T13:26:24 IST" duration-ms="42345" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- acceptCookie -->
+        <test-method is-config="true" signature="goToPerfumePage()[pri:0, instance:tests.DouglasTest@1807e3f6]" started-at="2025-06-09T13:26:24 IST" name="goToPerfumePage" finished-at="2025-06-09T13:26:57 IST" duration-ms="33215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToPerfumePage -->
+        <test-method signature="verifyPerfumeNavigation()[pri:0, instance:tests.DouglasTest@1807e3f6]" started-at="2025-06-09T13:26:57 IST" name="verifyPerfumeNavigation" finished-at="2025-06-09T13:27:30 IST" duration-ms="32270" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPerfumeNavigation -->
+        <test-method is-config="true" signature="goToPerfumePage()[pri:0, instance:tests.DouglasTest@1807e3f6]" started-at="2025-06-09T13:27:30 IST" name="goToPerfumePage" finished-at="2025-06-09T13:28:06 IST" duration-ms="36838" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToPerfumePage -->
+        <test-method signature="verifyPerfumeProductListWithFilters(java.lang.String,java.lang.String)[pri:0, instance:tests.DouglasTest@1807e3f6]" started-at="2025-06-09T13:28:06 IST" name="verifyPerfumeProductListWithFilters" data-provider="filterData" finished-at="2025-06-09T13:28:18 IST" duration-ms="11104" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Highlight]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sale]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPerfumeProductListWithFilters -->
+        <test-method is-config="true" signature="goToPerfumePage()[pri:0, instance:tests.DouglasTest@1807e3f6]" started-at="2025-06-09T13:28:18 IST" name="goToPerfumePage" finished-at="2025-06-09T13:28:51 IST" duration-ms="33694" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToPerfumePage -->
+        <test-method signature="verifyPerfumeProductListWithFilters(java.lang.String,java.lang.String)[pri:0, instance:tests.DouglasTest@1807e3f6]" started-at="2025-06-09T13:28:51 IST" name="verifyPerfumeProductListWithFilters" data-provider="filterData" finished-at="2025-06-09T13:29:02 IST" duration-ms="11056" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Marke]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chanel]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPerfumeProductListWithFilters -->
+        <test-method is-config="true" signature="goToPerfumePage()[pri:0, instance:tests.DouglasTest@1807e3f6]" started-at="2025-06-09T13:29:02 IST" name="goToPerfumePage" finished-at="2025-06-09T13:29:37 IST" duration-ms="34749" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToPerfumePage -->
+        <test-method signature="verifyPerfumeProductListWithFilters(java.lang.String,java.lang.String)[pri:0, instance:tests.DouglasTest@1807e3f6]" started-at="2025-06-09T13:29:37 IST" name="verifyPerfumeProductListWithFilters" data-provider="filterData" finished-at="2025-06-09T13:29:48 IST" duration-ms="10947" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Produktart]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Eau de Parfum]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPerfumeProductListWithFilters -->
+        <test-method is-config="true" signature="goToPerfumePage()[pri:0, instance:tests.DouglasTest@1807e3f6]" started-at="2025-06-09T13:29:48 IST" name="goToPerfumePage" finished-at="2025-06-09T13:30:21 IST" duration-ms="33415" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToPerfumePage -->
+        <test-method signature="verifyPerfumeProductListWithFilters(java.lang.String,java.lang.String)[pri:0, instance:tests.DouglasTest@1807e3f6]" started-at="2025-06-09T13:30:21 IST" name="verifyPerfumeProductListWithFilters" data-provider="filterData" finished-at="2025-06-09T13:30:32 IST" duration-ms="10654" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Geschenk für]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sie]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPerfumeProductListWithFilters -->
+        <test-method is-config="true" signature="goToPerfumePage()[pri:0, instance:tests.DouglasTest@1807e3f6]" started-at="2025-06-09T13:30:32 IST" name="goToPerfumePage" finished-at="2025-06-09T13:31:06 IST" duration-ms="33976" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToPerfumePage -->
+        <test-method signature="verifyPerfumeProductListWithFilters(java.lang.String,java.lang.String)[pri:0, instance:tests.DouglasTest@1807e3f6]" started-at="2025-06-09T13:31:06 IST" name="verifyPerfumeProductListWithFilters" data-provider="filterData" finished-at="2025-06-09T13:31:17 IST" duration-ms="10531" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Für Wen]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Damen]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPerfumeProductListWithFilters -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.DouglasTest@1807e3f6]" started-at="2025-06-09T13:31:17 IST" name="tearDown" finished-at="2025-06-09T13:31:21 IST" duration-ms="4031" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.DouglasTest -->
+    </test> <!-- Firefox Test -->
+    <test started-at="2025-06-09T13:24:43 IST" name="Chrome Test" finished-at="2025-06-09T13:32:59 IST" duration-ms="495606">
+      <class name="tests.DouglasTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.DouglasTest@359df09a]" started-at="2025-06-09T13:24:43 IST" name="setup" finished-at="2025-06-09T13:24:49 IST" duration-ms="6257" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="goToPerfumePage()[pri:0, instance:tests.DouglasTest@359df09a]" started-at="2025-06-09T13:24:50 IST" name="goToPerfumePage" finished-at="2025-06-09T13:25:58 IST" duration-ms="68191" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToPerfumePage -->
+        <test-method signature="acceptCookie()[pri:0, instance:tests.DouglasTest@359df09a]" started-at="2025-06-09T13:25:58 IST" name="acceptCookie" finished-at="2025-06-09T13:27:10 IST" duration-ms="72286" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- acceptCookie -->
+        <test-method is-config="true" signature="goToPerfumePage()[pri:0, instance:tests.DouglasTest@359df09a]" started-at="2025-06-09T13:27:10 IST" name="goToPerfumePage" finished-at="2025-06-09T13:28:13 IST" duration-ms="62669" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToPerfumePage -->
+        <test-method signature="verifyPerfumeNavigation()[pri:0, instance:tests.DouglasTest@359df09a]" started-at="2025-06-09T13:28:13 IST" name="verifyPerfumeNavigation" finished-at="2025-06-09T13:28:47 IST" duration-ms="34390" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPerfumeNavigation -->
+        <test-method is-config="true" signature="goToPerfumePage()[pri:0, instance:tests.DouglasTest@359df09a]" started-at="2025-06-09T13:28:47 IST" name="goToPerfumePage" finished-at="2025-06-09T13:29:28 IST" duration-ms="41395" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToPerfumePage -->
+        <test-method signature="verifyPerfumeProductListWithFilters(java.lang.String,java.lang.String)[pri:0, instance:tests.DouglasTest@359df09a]" started-at="2025-06-09T13:29:28 IST" name="verifyPerfumeProductListWithFilters" data-provider="filterData" finished-at="2025-06-09T13:29:44 IST" duration-ms="15120" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Highlight]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sale]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPerfumeProductListWithFilters -->
+        <test-method is-config="true" signature="goToPerfumePage()[pri:0, instance:tests.DouglasTest@359df09a]" started-at="2025-06-09T13:29:44 IST" name="goToPerfumePage" finished-at="2025-06-09T13:30:18 IST" duration-ms="34734" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToPerfumePage -->
+        <test-method signature="verifyPerfumeProductListWithFilters(java.lang.String,java.lang.String)[pri:0, instance:tests.DouglasTest@359df09a]" started-at="2025-06-09T13:30:18 IST" name="verifyPerfumeProductListWithFilters" data-provider="filterData" finished-at="2025-06-09T13:30:55 IST" duration-ms="36942" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Marke]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chanel]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPerfumeProductListWithFilters -->
+        <test-method is-config="true" signature="goToPerfumePage()[pri:0, instance:tests.DouglasTest@359df09a]" started-at="2025-06-09T13:30:55 IST" name="goToPerfumePage" finished-at="2025-06-09T13:31:27 IST" duration-ms="31688" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToPerfumePage -->
+        <test-method signature="verifyPerfumeProductListWithFilters(java.lang.String,java.lang.String)[pri:0, instance:tests.DouglasTest@359df09a]" started-at="2025-06-09T13:31:27 IST" name="verifyPerfumeProductListWithFilters" data-provider="filterData" finished-at="2025-06-09T13:31:38 IST" duration-ms="11113" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Produktart]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Eau de Parfum]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPerfumeProductListWithFilters -->
+        <test-method is-config="true" signature="goToPerfumePage()[pri:0, instance:tests.DouglasTest@359df09a]" started-at="2025-06-09T13:31:38 IST" name="goToPerfumePage" finished-at="2025-06-09T13:32:06 IST" duration-ms="28190" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToPerfumePage -->
+        <test-method signature="verifyPerfumeProductListWithFilters(java.lang.String,java.lang.String)[pri:0, instance:tests.DouglasTest@359df09a]" started-at="2025-06-09T13:32:06 IST" name="verifyPerfumeProductListWithFilters" data-provider="filterData" finished-at="2025-06-09T13:32:17 IST" duration-ms="10742" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Geschenk für]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sie]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPerfumeProductListWithFilters -->
+        <test-method is-config="true" signature="goToPerfumePage()[pri:0, instance:tests.DouglasTest@359df09a]" started-at="2025-06-09T13:32:17 IST" name="goToPerfumePage" finished-at="2025-06-09T13:32:45 IST" duration-ms="28083" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToPerfumePage -->
+        <test-method signature="verifyPerfumeProductListWithFilters(java.lang.String,java.lang.String)[pri:0, instance:tests.DouglasTest@359df09a]" started-at="2025-06-09T13:32:45 IST" name="verifyPerfumeProductListWithFilters" data-provider="filterData" finished-at="2025-06-09T13:32:57 IST" duration-ms="12112" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Für Wen]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Damen]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPerfumeProductListWithFilters -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.DouglasTest@359df09a]" started-at="2025-06-09T13:32:57 IST" name="tearDown" finished-at="2025-06-09T13:32:59 IST" duration-ms="1422" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.DouglasTest -->
+    </test> <!-- Chrome Test -->
+    <test started-at="2025-06-09T13:24:43 IST" name="Edge Test" finished-at="2025-06-09T13:33:02 IST" duration-ms="498668">
+      <class name="tests.DouglasTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.DouglasTest@f1da57d]" started-at="2025-06-09T13:24:43 IST" name="setup" finished-at="2025-06-09T13:24:52 IST" duration-ms="8980" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="goToPerfumePage()[pri:0, instance:tests.DouglasTest@f1da57d]" started-at="2025-06-09T13:24:52 IST" name="goToPerfumePage" finished-at="2025-06-09T13:25:47 IST" duration-ms="54895" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToPerfumePage -->
+        <test-method signature="acceptCookie()[pri:0, instance:tests.DouglasTest@f1da57d]" started-at="2025-06-09T13:25:47 IST" name="acceptCookie" finished-at="2025-06-09T13:26:26 IST" duration-ms="39284" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- acceptCookie -->
+        <test-method is-config="true" signature="goToPerfumePage()[pri:0, instance:tests.DouglasTest@f1da57d]" started-at="2025-06-09T13:26:26 IST" name="goToPerfumePage" finished-at="2025-06-09T13:27:08 IST" duration-ms="41420" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToPerfumePage -->
+        <test-method signature="verifyPerfumeNavigation()[pri:0, instance:tests.DouglasTest@f1da57d]" started-at="2025-06-09T13:27:08 IST" name="verifyPerfumeNavigation" finished-at="2025-06-09T13:28:00 IST" duration-ms="52702" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPerfumeNavigation -->
+        <test-method is-config="true" signature="goToPerfumePage()[pri:0, instance:tests.DouglasTest@f1da57d]" started-at="2025-06-09T13:28:00 IST" name="goToPerfumePage" finished-at="2025-06-09T13:28:41 IST" duration-ms="40548" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToPerfumePage -->
+        <test-method signature="verifyPerfumeProductListWithFilters(java.lang.String,java.lang.String)[pri:0, instance:tests.DouglasTest@f1da57d]" started-at="2025-06-09T13:28:41 IST" name="verifyPerfumeProductListWithFilters" data-provider="filterData" finished-at="2025-06-09T13:29:17 IST" duration-ms="35589" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Highlight]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sale]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPerfumeProductListWithFilters -->
+        <test-method is-config="true" signature="goToPerfumePage()[pri:0, instance:tests.DouglasTest@f1da57d]" started-at="2025-06-09T13:29:17 IST" name="goToPerfumePage" finished-at="2025-06-09T13:30:12 IST" duration-ms="55588" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToPerfumePage -->
+        <test-method signature="verifyPerfumeProductListWithFilters(java.lang.String,java.lang.String)[pri:0, instance:tests.DouglasTest@f1da57d]" started-at="2025-06-09T13:30:12 IST" name="verifyPerfumeProductListWithFilters" data-provider="filterData" finished-at="2025-06-09T13:30:43 IST" duration-ms="30535" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Marke]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chanel]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPerfumeProductListWithFilters -->
+        <test-method is-config="true" signature="goToPerfumePage()[pri:0, instance:tests.DouglasTest@f1da57d]" started-at="2025-06-09T13:30:43 IST" name="goToPerfumePage" finished-at="2025-06-09T13:31:19 IST" duration-ms="36300" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToPerfumePage -->
+        <test-method signature="verifyPerfumeProductListWithFilters(java.lang.String,java.lang.String)[pri:0, instance:tests.DouglasTest@f1da57d]" started-at="2025-06-09T13:31:19 IST" name="verifyPerfumeProductListWithFilters" data-provider="filterData" finished-at="2025-06-09T13:31:34 IST" duration-ms="15277" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Produktart]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Eau de Parfum]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPerfumeProductListWithFilters -->
+        <test-method is-config="true" signature="goToPerfumePage()[pri:0, instance:tests.DouglasTest@f1da57d]" started-at="2025-06-09T13:31:34 IST" name="goToPerfumePage" finished-at="2025-06-09T13:32:03 IST" duration-ms="28587" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToPerfumePage -->
+        <test-method signature="verifyPerfumeProductListWithFilters(java.lang.String,java.lang.String)[pri:0, instance:tests.DouglasTest@f1da57d]" started-at="2025-06-09T13:32:03 IST" name="verifyPerfumeProductListWithFilters" data-provider="filterData" finished-at="2025-06-09T13:32:17 IST" duration-ms="14045" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Geschenk für]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sie]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPerfumeProductListWithFilters -->
+        <test-method is-config="true" signature="goToPerfumePage()[pri:0, instance:tests.DouglasTest@f1da57d]" started-at="2025-06-09T13:32:17 IST" name="goToPerfumePage" finished-at="2025-06-09T13:32:44 IST" duration-ms="27399" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToPerfumePage -->
+        <test-method signature="verifyPerfumeProductListWithFilters(java.lang.String,java.lang.String)[pri:0, instance:tests.DouglasTest@f1da57d]" started-at="2025-06-09T13:32:44 IST" name="verifyPerfumeProductListWithFilters" data-provider="filterData" finished-at="2025-06-09T13:33:01 IST" duration-ms="16320" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Für Wen]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Damen]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPerfumeProductListWithFilters -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.DouglasTest@f1da57d]" started-at="2025-06-09T13:33:01 IST" name="tearDown" finished-at="2025-06-09T13:33:02 IST" duration-ms="1055" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.DouglasTest -->
+    </test> <!-- Edge Test -->
+  </suite> <!-- CrossBrowserSuite -->
+</testng-results>
